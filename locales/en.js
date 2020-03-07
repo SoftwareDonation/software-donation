@@ -8,7 +8,9 @@ module.exports = {
     hero: {
       headline: 'Join a cause and take advantage of powerful tools',
       description:
-        'Software Donation is an open source initiative to help you to support a cause you care about with the power of software',
+        'Software Donation is an open source initiative to help you to support a cause you care about with the power of software'
+    },
+    causes: {
       call_to_action_sentence: 'Find software for your cause'
     }
   },
