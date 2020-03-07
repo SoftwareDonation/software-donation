@@ -1,3 +1,5 @@
+import messages from './locales'
+
 export default {
   mode: 'universal',
   /*
@@ -23,7 +25,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: '../assets/styles/main.scss', lang: 'scss' }],
   /*
    ** Plugins to load before mounting the App
    */
@@ -45,7 +47,8 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-i18n'
   ],
   /*
    ** Build configuration
@@ -55,5 +58,14 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages
+    }
   }
 }
