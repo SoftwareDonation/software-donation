@@ -1,4 +1,5 @@
 import messages from './locales'
+import getCauses from './services/getCauses'
 
 export default {
   mode: 'universal',
@@ -64,6 +65,14 @@ export default {
     vueI18n: {
       fallbackLocale: 'en',
       messages
+    }
+  },
+
+  generate: {
+    routes: () => {
+      return getCauses().map((item) => {
+        return `/${item.id}`
+      })
     }
   }
 }
