@@ -34,6 +34,7 @@
               :description="software.description"
               :eligibility="software.eligibility"
               :url="software.url"
+              :image="software.image"
             />
           </div>
         </div>
@@ -82,8 +83,8 @@ export default {
 <style lang="scss" scoped>
 .softwares-causes {
   background-color: #fff;
-  border-top: 2px solid $color-grey-light;
-  border-bottom: 2px solid $color-grey-light;
+  border-top: 1px solid $color-grey;
+  border-bottom: 1px solid $color-grey;
   padding: $space-xl 0;
 
   &__title {
