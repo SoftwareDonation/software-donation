@@ -2,7 +2,8 @@ module.exports = {
   navigation: {
     donate: 'Donate now',
     program: 'Donation program',
-    about: 'About'
+    about: 'About',
+    logo: '<❤/>'
   },
   home: {
     hero: {
