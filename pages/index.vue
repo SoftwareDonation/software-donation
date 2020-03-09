@@ -13,15 +13,17 @@
     <section class="home__softwares">
       <div v-for="(category, indexCategory) in categories" :key="indexCategory">
         <h3>{{ category.name }}</h3>
-        <SoftwareItem
-          v-for="(software, indexSoftware) in category.softwares"
-          :id="software.id"
-          :key="indexSoftware"
-          :name="software.name"
-          :description="software.description"
-          :eligibility="software.eligibility"
-          :url="software.url"
-        />
+        <div class="home__softwares-list">
+          <SoftwareItem
+            v-for="(software, indexSoftware) in category.softwares"
+            :id="software.id"
+            :key="indexSoftware"
+            :name="software.name"
+            :description="software.description"
+            :eligibility="software.eligibility"
+            :url="software.url"
+          />
+        </div>
       </div>
     </section>
   </div>
