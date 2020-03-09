@@ -27,6 +27,10 @@ export default {
     font-size: $font-size-xxl;
     margin: 0 auto;
     font-weight: 900;
+
+    @media screen and (max-width: $screen-lg) {
+      font-size: $font-size-xl;
+    }
   }
 
   &__description {

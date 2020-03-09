@@ -47,6 +47,13 @@ export default {
   justify-content: space-between;
   align-items: center;
 
+  @media screen and (max-width: $screen-md) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: $space-md;
+  }
+
   &__title {
     margin-top: 0;
     font-size: $font-size-xl;
@@ -55,6 +62,10 @@ export default {
   &__description {
     margin-bottom: 0;
     color: $color-accent-lightest;
+
+    @media screen and (max-width: $screen-md) {
+      margin-bottom: $space-md;
+    }
   }
 }
 </style>

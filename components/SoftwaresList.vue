@@ -89,10 +89,12 @@ export default {
 
   &__title {
     margin-bottom: $space-lg;
+    margin-top: $space-md;
   }
 
   &__buttons {
     margin-right: $space-xs;
+    margin-bottom: $space-md;
   }
 }
 
