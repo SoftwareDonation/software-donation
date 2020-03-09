@@ -61,6 +61,10 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: $screen-md) {
+      flex-direction: column;
+    }
   }
 
   &__logo {
@@ -77,6 +81,11 @@ export default {
   &__link {
     margin-left: $space-md;
     font-weight: 500;
+
+    @media screen and (max-width: $screen-md) {
+      margin: 0 $space-xs;
+      text-align: center;
+    }
   }
 }
 </style>

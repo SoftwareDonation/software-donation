@@ -78,6 +78,7 @@ export default {
   box-shadow: $shadow-elevation-1;
   transition: all 0.3s ease;
   border: 1px solid $color-grey;
+  display: inline-block;
 
   &:hover {
     box-shadow: $shadow-elevation-3;
