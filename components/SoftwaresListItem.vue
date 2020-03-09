@@ -1,12 +1,12 @@
 <template>
-  <div class="software-item">
+  <div class="software-list-item">
     <h4>{{ name }}</h4>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SoftwareItem',
+  name: 'SoftwaresListItem',
   props: {
     id: {
       type: String,
