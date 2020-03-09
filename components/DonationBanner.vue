@@ -40,7 +40,7 @@ export default {
   background-color: $color-primary-darkest;
   color: #fff;
   box-shadow: $shadow-elevation-3;
-  margin: $space-xxxl 0;
+  margin: $space-4xl 0;
   padding: $space-xl;
   border-radius: $border-radius-card;
   display: flex;

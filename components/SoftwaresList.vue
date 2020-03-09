@@ -83,9 +83,9 @@ export default {
 <style lang="scss" scoped>
 .softwares-causes {
   background-color: #fff;
-  border-top: 1px solid $color-grey;
-  border-bottom: 1px solid $color-grey;
+  border-top: 2px solid $color-grey-lightest;
   padding: $space-xl 0;
+  box-shadow: $shadow-elevation-1;
 
   &__title {
     margin-bottom: $space-lg;
@@ -100,7 +100,7 @@ export default {
 
 .softwares-list {
   &__category {
-    margin-top: $space-xl;
+    margin-top: $space-xxxl;
   }
 
   &__title {

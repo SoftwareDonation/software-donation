@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .home-header {
+  background-color: #fff;
   padding: $space-5xl 0;
   text-align: center;
 

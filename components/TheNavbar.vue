@@ -57,6 +57,8 @@ export default {
 
 <style lang="scss" scoped>
 .the-navbar {
+  background-color: #fff;
+
   &__container {
     display: flex;
     justify-content: space-between;
