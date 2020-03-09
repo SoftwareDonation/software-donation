@@ -23,5 +23,8 @@ module.exports = {
     title: 'Join the newsletter',
     button: 'subscribe'
   },
+  software: {
+    get: 'Get it'
+  },
   footer: {}
 }
