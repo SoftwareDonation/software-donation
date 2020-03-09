@@ -12,12 +12,12 @@
           :key="index"
           class="the-navbar__link"
         >
-          <a v-if="link.href" :href="link.href" :class="link.class">
-            {{ link.title }}
-          </a>
-          <nuxt-link v-else-if="link.to" :to="link.to">{{
-            link.title
-          }}</nuxt-link>
+          <nuxt-link :to="link.to">{{ link.title }}</nuxt-link>
+        </li>
+        <li class="the-navbar__link">
+          <base-button :href="donateLink">
+            {{ $t('navigation.donate') }}
+          </base-button>
         </li>
       </ul>
     </base-container>
@@ -28,21 +28,18 @@
 import { DONATE_LINK } from '../config'
 import TheLogo from './TheLogo'
 import BaseContainer from './BaseContainer'
+import BaseButton from './BaseButton'
 
 export default {
   name: 'TheNavbar',
   components: {
     TheLogo,
-    BaseContainer
+    BaseContainer,
+    BaseButton
   },
   data() {
     return {
       links: [
-        {
-          title: this.$t('navigation.donate'),
-          href: DONATE_LINK,
-          class: 'button'
-        },
         {
           title: this.$t('navigation.program'),
           to: '/program'
@@ -51,13 +48,14 @@ export default {
           title: this.$t('navigation.about'),
           to: '/about'
         }
-      ]
+      ],
+      donateLink: DONATE_LINK
     }
   }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .the-navbar {
   &__container {
     display: flex;
