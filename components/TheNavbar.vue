@@ -15,7 +15,7 @@
           <nuxt-link :to="link.to">{{ link.title }}</nuxt-link>
         </li>
         <li class="the-navbar__link">
-          <base-button :href="donateLink">
+          <base-button :href="donateLink" type="primary">
             {{ $t('navigation.donate') }}
           </base-button>
         </li>

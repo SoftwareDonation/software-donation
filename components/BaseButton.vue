@@ -99,11 +99,13 @@ export default {
     &:hover {
       background-color: darken($color-primary, 5);
       border-color: darken($color-primary, 5);
+      color: #fff;
     }
 
     &:active {
       background-color: $color-primary-darker;
       border-color: $color-primary-darker;
+      color: #fff;
     }
   }
 }
