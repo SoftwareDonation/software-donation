@@ -109,6 +109,14 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: $space-md;
+
+    @media screen and (max-width: $screen-lg) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $screen-md) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 </style>
