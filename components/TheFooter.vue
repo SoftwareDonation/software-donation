@@ -1,5 +1,7 @@
 <template>
-  <footer class="the-footer"></footer>
+  <footer class="the-footer">
+    <p>{{ $t('footer.love') }}</p>
+  </footer>
 </template>
 
 <script>

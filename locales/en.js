@@ -26,5 +26,7 @@ module.exports = {
   software: {
     get: 'Get it'
   },
-  footer: {}
+  footer: {
+    love: 'Made with <❤/>'
+  }
 }
