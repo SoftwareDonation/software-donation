@@ -18,5 +18,3 @@ export default {
   mixins: [causesAndCategories]
 }
 </script>
-
-<style lang="scss" scoped></style>

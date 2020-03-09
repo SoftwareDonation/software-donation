@@ -1,6 +1,5 @@
 <template>
   <div class="button__container">
-    {{ isSelected }}
     <nuxt-link v-if="to" :to="to" class="button">
       <slot></slot>
     </nuxt-link>
