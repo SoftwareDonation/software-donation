@@ -32,6 +32,8 @@ export default {
     font-size: $font-size-md;
     font-weight: 500;
     color: $color-grey-dark;
+    max-width: 720px;
+    margin: $space-md auto;
   }
 }
 </style>
