@@ -3,8 +3,8 @@
     {
       "name": "Software to work remotely",
       "softwares": [
-        "google-hangouts",
-        "google-keep"
+        { "id": "google-hangouts" },
+        { "id": "google-keep" }
       ]
     }
   ]

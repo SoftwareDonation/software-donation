@@ -5,9 +5,9 @@ const getCategoriesAndSoftwares = (causeId) => {
   const categories = cause.categories
 
   const categoriesAndSoftwares = categories.map((category) => {
-    const softwares = category.softwares.map((softwareId) => {
+    const softwares = category.softwares.map((softwareItem) => {
       return softwaresData.filter((software) => {
-        return software.id === softwareId
+        return software.id === softwareItem.id
       })[0]
     })
 

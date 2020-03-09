@@ -3,15 +3,15 @@
     {
       "name": "Software to work remotely",
       "softwares": [
-        "google-hangouts",
-        "google-keep"
+        { "id": "google-hangouts" },
+        { "id": "google-keep" }
       ]
     },
     {
       "name": "Software to work well",
       "softwares": [
-        "google-meets",
-        "google-keep"
+        { "id": "google-meets" },
+        { "id": "google-keep" }
       ]
     }
   ]
