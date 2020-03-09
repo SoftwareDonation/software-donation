@@ -1,5 +1,6 @@
 <template>
   <div class="button__container">
+    {{ isSelected }}
     <nuxt-link v-if="to" :to="to" class="button">
       <slot></slot>
     </nuxt-link>
@@ -28,6 +29,10 @@ export default {
     type: {
       type: String,
       default: null
+    },
+    isSelected: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -35,6 +40,8 @@ export default {
 
 <style lang="scss">
 .button {
-  background: #fff;
+  &__container {
+    display: inline-block;
+  }
 }
 </style>

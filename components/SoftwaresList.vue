@@ -6,6 +6,7 @@
         v-for="(cause, index) in causes"
         :key="index"
         :to="getCauseLink(cause)"
+        :is-selected="isCauseSelected(cause)"
       >
         {{ cause.name }}
       </base-button>
@@ -30,6 +31,7 @@
 </template>
 
 <script>
+import { DEFAULT_CAUSE } from '../config'
 import SoftwaresListItem from './SoftwaresListItem.vue'
 import BaseButton from './BaseButton.vue'
 
@@ -52,6 +54,12 @@ export default {
   methods: {
     getCauseLink(cause) {
       return `/${cause.id}`
+    },
+    isCauseSelected(cause) {
+      const causeNameIsInRoute = this.$nuxt.$route.path.includes(cause.id)
+      const isDefaultPage = this.$nuxt.$route.path === '/'
+      const causeIsDefault = cause.id === DEFAULT_CAUSE
+      return causeNameIsInRoute || (isDefaultPage && causeIsDefault)
     }
   }
 }
