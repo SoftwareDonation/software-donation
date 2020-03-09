@@ -26,6 +26,7 @@ export default {
   &__title {
     font-size: $font-size-xxl;
     margin: 0 auto;
+    font-weight: 900;
   }
 
   &__description {

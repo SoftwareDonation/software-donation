@@ -22,9 +22,10 @@
         <div
           v-for="(category, indexCategory) in categories"
           :key="indexCategory"
+          class="softwares-list__category"
         >
-          <h3>{{ category.name }}</h3>
-          <div class="softwares-list">
+          <h3 class="softwares-list__title">{{ category.name }}</h3>
+          <div class="softwares-list__grid">
             <SoftwaresListItem
               v-for="(software, indexSoftware) in category.softwares"
               :id="software.id"
@@ -91,6 +92,22 @@ export default {
 
   &__buttons {
     margin-right: $space-xs;
+  }
+}
+
+.softwares-list {
+  &__category {
+    margin-top: $space-xl;
+  }
+
+  &__title {
+    margin-bottom: $space-sm;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: $space-md;
   }
 }
 </style>
