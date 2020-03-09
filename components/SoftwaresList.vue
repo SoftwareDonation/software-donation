@@ -2,9 +2,13 @@
   <div>
     <section class="home__causes">
       <h2>{{ $t('home.causes.call_to_action_sentence') }}</h2>
-      <button v-for="(cause, index) in causes" :key="index">
+      <base-button
+        v-for="(cause, index) in causes"
+        :key="index"
+        :to="getCauseLink(cause)"
+      >
         {{ cause.name }}
-      </button>
+      </base-button>
     </section>
     <section class="softwares">
       <div v-for="(category, indexCategory) in categories" :key="indexCategory">
@@ -26,12 +30,14 @@
 </template>
 
 <script>
-import SoftwaresListItem from '../components/SoftwaresListItem.vue'
+import SoftwaresListItem from './SoftwaresListItem.vue'
+import BaseButton from './BaseButton.vue'
 
 export default {
   name: 'SoftwaresList',
   components: {
-    SoftwaresListItem
+    SoftwaresListItem,
+    BaseButton
   },
   props: {
     causes: {
@@ -41,6 +47,11 @@ export default {
     categories: {
       type: Array,
       required: true
+    }
+  },
+  methods: {
+    getCauseLink(cause) {
+      return `/${cause.id}`
     }
   }
 }
