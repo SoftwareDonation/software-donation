@@ -2,7 +2,7 @@
   <nav class="the-navbar">
     <div class="the-navbar__branding">
       <nuxt-link to="/">
-        <Logo />
+        <TheLogo />
       </nuxt-link>
     </div>
     <ul class="the-navbar__links">
@@ -20,12 +20,12 @@
 
 <script>
 import { DONATE_LINK } from '../config'
-import Logo from './Logo'
+import TheLogo from './TheLogo'
 
 export default {
   name: 'TheNavbar',
   components: {
-    Logo
+    TheLogo
   },
   data() {
     return {
