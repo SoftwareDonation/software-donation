@@ -18,6 +18,7 @@ export default {
     SoftwaresList,
     DonationBanner
   },
-  mixins: [causesAndCategories]
+  mixins: [causesAndCategories],
+  scrollToTop: false
 }
 </script>

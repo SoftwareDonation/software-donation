@@ -1,9 +1,9 @@
 <template>
   <div class="button__container">
-    <nuxt-link v-if="to" :to="to" class="button">
+    <nuxt-link v-if="to" :to="to" :class="className">
       <slot></slot>
     </nuxt-link>
-    <a v-else-if="href" :href="href" :target="target" class="button">
+    <a v-else-if="href" :href="href" :target="target" :class="className">
       <slot></slot>
     </a>
   </div>
@@ -32,6 +32,25 @@ export default {
     isSelected: {
       type: Boolean,
       default: false
+    }
+  },
+  computed: {
+    className() {
+      let className
+
+      if (this.type === 'selector') {
+        className = 'selector'
+      } else if (this.type !== null) {
+        className = 'button button--' + this.type
+      } else {
+        className = 'button'
+      }
+
+      if (this.isSelected) {
+        className = className + ' ' + this.type + '--selected'
+      }
+
+      return className
     }
   }
 }
@@ -86,6 +105,30 @@ export default {
       background-color: $color-primary-darker;
       border-color: $color-primary-darker;
     }
+  }
+}
+
+.selector {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  min-height: 20px;
+  padding: $space-xxs $space-sm;
+  border-radius: 99px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: $color-grey-lightest;
+  color: $color-grey-darkest;
+  font-size: $font-size-xs;
+  transition: all 0.3s ease;
+  border: 1px solid $color-grey;
+
+  &--selected {
+    background-color: $color-primary-lightest;
+    color: $color-primary;
+    border: 1px solid $color-primary-light;
   }
 }
 </style>
