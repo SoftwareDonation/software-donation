@@ -18,9 +18,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-body {
-  background-color: $color-grey-lightest;
-}
-</style>
