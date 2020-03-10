@@ -1,0 +1,13 @@
+{
+  "title": "test",
+  "categories": [
+    {
+      "name": "Super test",
+      "softwares": [
+        {
+          "id": "google-meets"
+        }
+      ]
+    }
+  ]
+}

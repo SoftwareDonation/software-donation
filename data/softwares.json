@@ -21,7 +21,8 @@
       "name": "Google Keep",
       "description": "Google hangouts help you chat with people",
       "eligibility": "For everyone",
-      "url": "https://google.com"
+      "url": "https://google.com",
+      "image": "/images/softwares/icon.png"
     }
   ]
 }

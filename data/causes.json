@@ -7,6 +7,10 @@
     {
       "id": "remote",
       "name": "Work remotely"
+    },
+    {
+      "id": "test",
+      "name": "test"
     }
   ]
 }
