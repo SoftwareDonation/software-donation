@@ -24,3 +24,17 @@ collections:
             - {label: Eligibility, name: eligibility, widget: text}
             - {label: Url, name: url, widget: string}
             - {label: Image, name: image, widget: image}
+  - label: "Causes"
+    name: "causes"
+    extension: "json"
+    files:
+      - label: "Causes"
+        name: "causes"
+        file: "data/causes.json"
+        fields:
+          - label: "Causes List"
+            name: "causes"
+            widget: "list"
+            fields:
+            - {label: Id, name: id, widget: string}
+            - {label: Name, name: name, widget: string}

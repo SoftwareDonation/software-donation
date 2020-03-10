@@ -1,10 +1,12 @@
-[
-  {
-    "id": "corona",
-    "name": "Fight the corona virus"
-  },
-  {
-    "id": "remote",
-    "name": "Work remotely"
-  }
-]
+{
+  "causes": [
+    {
+      "id": "corona",
+      "name": "Fight the corona virus"
+    },
+    {
+      "id": "remote",
+      "name": "Work remotely"
+    }
+  ]
+}
