@@ -13,6 +13,7 @@ import DonationBanner from '../../components/DonationBanner.vue'
 import causesAndCategories from '../../mixins/causesAndCategories'
 
 export default {
+  title: 'Cause',
   components: {
     HomeHeader,
     SoftwaresList,
