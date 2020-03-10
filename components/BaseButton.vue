@@ -32,6 +32,10 @@ export default {
     isSelected: {
       type: Boolean,
       default: false
+    },
+    size: {
+      type: String,
+      default: 'md'
     }
   },
   computed: {
@@ -41,15 +45,14 @@ export default {
       if (this.type === 'selector') {
         className = 'selector'
       } else if (this.type !== null) {
-        className = 'button button--' + this.type
+        className = 'button button--' + this.type + ' button--' + this.size
       } else {
-        className = 'button'
+        className = 'button' + ' button--' + this.size
       }
 
       if (this.isSelected) {
         className = className + ' ' + this.type + '--selected'
       }
-
       return className
     }
   }
@@ -79,6 +82,12 @@ export default {
   transition: all 0.3s ease;
   border: 1px solid $color-grey;
   display: inline-block;
+
+  &--lg {
+    font-size: $font-size-lg;
+    padding: $space-xs $space-md;
+    font-weight: 500;
+  }
 
   &:hover {
     box-shadow: $shadow-elevation-3;

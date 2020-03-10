@@ -5,7 +5,7 @@
       <p class="home-header__description">
         {{ $t('program.hero.description') }}
       </p>
-      <base-button :href="donateLink">{{
+      <base-button :href="donateLink" size="lg">{{
         $t('program.hero.button')
       }}</base-button>
     </base-container>
@@ -35,11 +35,11 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
-  min-height: 500px;
   height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: $space-xl;
 
   &__title {
     font-size: $font-size-xxl;
