@@ -60,6 +60,10 @@ export default {
     height: 70vh;
     min-height: 400px;
 
+    @media screen and (max-width: $screen-lg) {
+      grid-template-columns: 1fr;
+    }
+
     &--second {
       box-shadow: $shadow-elevation-3;
     }
@@ -82,6 +86,12 @@ export default {
       grid-column-end: 4;
       padding-right: 0;
     }
+
+    @media screen and (max-width: $screen-lg) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      padding: $container-padding;
+    }
   }
 
   &__section-image {
@@ -91,12 +101,20 @@ export default {
       grid-column-start: 3;
       grid-column-end: 5;
       background-image: url('/images/program/remote.jpg');
+      @media screen and (max-width: $screen-lg) {
+        order: -1;
+      }
     }
 
     &--second {
       grid-column-start: 1;
       grid-column-end: 3;
       background-image: url('/images/program/covid.jpg');
+    }
+
+    @media screen and (max-width: $screen-lg) {
+      grid-column-start: 1;
+      grid-column-end: 2;
     }
   }
 }
