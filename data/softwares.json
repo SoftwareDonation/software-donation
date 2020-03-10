@@ -7,6 +7,21 @@
       "eligibility": "For student only",
       "url": "https://google.com",
       "image": "/images/softwares/meet.png"
+    },
+    {
+      "id": "google-hangouts",
+      "name": "Google Hangouts",
+      "description": "Google hangouts help you chat with people",
+      "eligibility": "For everyone",
+      "url": "https://google.com",
+      "image": "/images/softwares/meet.png"
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "description": "Google hangouts help you chat with people",
+      "eligibility": "For everyone",
+      "url": "https://google.com"
     }
   ]
 }
