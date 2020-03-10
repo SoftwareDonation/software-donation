@@ -43,7 +43,9 @@ collections:
     folder: "data/causes"
     create: true
     extension: "json"
+    identifier_field: id
     fields:
+      - {label: Cause Id, name: id, widget: string}
       - label: "Category list"
         name: "categories"
         widget: "list"
