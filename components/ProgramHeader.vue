@@ -35,7 +35,8 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
-  height: 50vh;
+  height: 60vh;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
