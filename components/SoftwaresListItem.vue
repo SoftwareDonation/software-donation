@@ -66,7 +66,7 @@ export default {
   },
   computed: {
     imageLink() {
-      return this.image !== null && `/images/companies/${this.image}`
+      return this.image !== null && `/images/softwares/${this.image}`
     },
     alt() {
       return `${this.name} logo`
