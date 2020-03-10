@@ -21,8 +21,12 @@ export default {
 <style lang="scss" scoped>
 .home-header {
   background-color: #fff;
-  padding: $space-5xl 0;
   text-align: center;
+  min-height: 500px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &__title {
     font-size: $font-size-xxl;
