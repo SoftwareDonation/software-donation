@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ProgramHeader from '../components/HomeHeader.vue'
+import ProgramHeader from '../components/ProgramHeader.vue'
 import DonationBanner from '../components/DonationBanner.vue'
 
 export default {

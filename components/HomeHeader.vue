@@ -32,6 +32,7 @@ export default {
     font-size: $font-size-xxl;
     margin: 0 auto;
     font-weight: 900;
+    max-width: 800px;
 
     @media screen and (max-width: $screen-lg) {
       font-size: $font-size-xl;

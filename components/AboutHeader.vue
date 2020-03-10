@@ -1,32 +1,18 @@
 <template>
   <header class="home-header">
     <base-container>
-      <h1 class="home-header__title">{{ $t('program.hero.title') }}</h1>
-      <p class="home-header__description">
-        {{ $t('program.hero.description') }}
-      </p>
-      <base-button :href="donateLink">{{
-        $t('program.hero.button')
-      }}</base-button>
+      <h1 class="home-header__title">{{ $t('about.title') }}</h1>
     </base-container>
   </header>
 </template>
 
 <script>
-import { DONATE_LINK } from '../config'
 import BaseContainer from './BaseContainer'
-import BaseButton from './BaseButton.vue'
 
 export default {
-  name: 'ProgramHeader',
+  name: 'AboutHeader',
   components: {
-    BaseContainer,
-    BaseButton
-  },
-  data() {
-    return {
-      donateLink: DONATE_LINK
-    }
+    BaseContainer
   }
 }
 </script>
@@ -35,8 +21,7 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
-  min-height: 500px;
-  height: 50vh;
+  min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,7 +30,6 @@ export default {
     font-size: $font-size-xxl;
     margin: 0 auto;
     font-weight: 900;
-    max-width: 800px;
 
     @media screen and (max-width: $screen-lg) {
       font-size: $font-size-xl;

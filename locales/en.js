@@ -37,6 +37,10 @@ module.exports = {
       }
     }
   },
+  about: {
+    title: 'About Software Donation',
+    text: `Software Donation is an open source initiative to help you to support a cause you care about with the power of software`
+  },
   donation_banner: {
     title: 'Your software can help people ?',
     description: 'If you want to help fighting a cause, donate your software',
