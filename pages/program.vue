@@ -57,21 +57,36 @@ export default {
   &__section {
     display: grid;
     grid-template-columns: 1fr $column-size $column-size 1fr;
+    height: 70vh;
+    min-height: 400px;
+
+    &--second {
+      box-shadow: $shadow-elevation-3;
+    }
   }
 
   &__section-content {
+    padding: $space-xl;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
     &--first {
       grid-column-start: 2;
       grid-column-end: 3;
+      padding-left: 0;
     }
 
     &--second {
       grid-column-start: 3;
       grid-column-end: 4;
+      padding-right: 0;
     }
   }
 
   &__section-image {
+    background-size: cover;
+
     &--first {
       grid-column-start: 3;
       grid-column-end: 5;
