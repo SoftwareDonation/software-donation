@@ -1,3 +1,6 @@
+import messages from './locales'
+import getCauses from './services/getCauses'
+
 export default {
   mode: 'universal',
   /*
@@ -23,7 +26,8 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: '../assets/styles/main.scss', lang: 'scss' }],
+
   /*
    ** Plugins to load before mounting the App
    */
@@ -36,8 +40,7 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/style-resources'
   ],
   /*
    ** Nuxt.js modules
@@ -45,7 +48,8 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-i18n'
   ],
   /*
    ** Build configuration
@@ -55,5 +59,26 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+
+  styleResources: {
+    scss: ['assets/styles/_variables.scss']
+  },
+
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages
+    }
+  },
+
+  generate: {
+    routes: () => {
+      return getCauses().map((item) => {
+        return `/${item.id}`
+      })
+    }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "categories": [
+    {
+      "name": "Software to work remotely",
+      "softwares": [
+        { "id": "google-hangouts" },
+        { "id": "google-keep" }
+      ]
+    },
+    {
+      "name": "Software to work well",
+      "softwares": [
+        { "id": "google-meets" },
+        { "id": "google-keep" }
+      ]
+    }
+  ]
+}

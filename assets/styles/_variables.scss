@@ -1,0 +1,93 @@
+$border-radius-sm: 2px;
+$border-radius-md: 4px;
+$border-radius-xl: 8px;
+$border-radius-button: $border-radius-sm;
+$border-radius-card: $border-radius-md;
+$border-radius-banner: $border-radius-xl;
+
+$font-size-xxxs: 12px;
+$font-size-xxs: 14px;
+$font-size-xs: 16px;
+$font-size-sm: 18px;
+$font-size-md: 20px;
+$font-size-lg: 24px;
+$font-size-xl: 32px;
+$font-size-xxl: 48px;
+$font-size-xxxl: 60px;
+$font-size-4xl: 72px;
+
+$space-4xs: 2px;
+$space-xxxs: 4px;
+$space-xxs: 8px;
+$space-xs: 12px;
+$space-sm: 16px;
+$space-md: 24px;
+$space-lg: 32px;
+$space-xl: 48px;
+$space-xxl: 64px;
+$space-xxxl: 96px;
+$space-4xl: 128px;
+$space-5xl: 192px;
+$space-6xl: 256px;
+$space-7xl: 384px;
+$space-8xl: 512px;
+
+$shadow-elevation-1: 0 1px 3px hsla(0, 0, 0, 0.12), 0 1px 2px hsla(0, 0, 0, 0.24);
+$shadow-elevation-2: 0 3px 6px hsla(0, 0, 0, 0.15), 0 2px 4px hsla(0, 0, 0, 0.12);
+$shadow-elevation-3: 0 10px 20px hsla(0, 0, 0, 0.15), 0 3px 6px hsla(0, 0, 0, 0.1);
+$shadow-elevation-4: 0 15px 25px hsla(0, 0, 0, 0.15), 0 5px 10px hsla(0, 0, 0, 0.5);
+$shadow-elevation-5: 0 20px 40px hsla(0, 0, 0, 0.2);
+
+$color-grey-darkest: #12263f;
+$color-grey-dark: #617692;
+$color-grey: #d2ddec;
+$color-grey-light: #edf1f5;
+$color-grey-lightest: #f5f7fa;
+
+$color-primary-darkest: #12283a;
+$color-primary-darker: #1a4971;
+$color-primary-dark: #2368a2;
+$color-primary: #3183c8;
+$color-primary-light: #3183c8;
+$color-primary-lighter: #aad4f5;
+$color-primary-lightest: #eff8ff;
+
+$color-accent-darkest: #124544;
+$color-accent-darker: #1b655e;
+$color-accent-dark: #2a9187;
+$color-accent: #3caea3;
+$color-accent-light: #6ed7d3;
+$color-accent-lighter: #a8eeeb;
+$color-accent-lightest: #eff8ff;
+
+$color-danger-darkest: #5f1919;
+$color-danger-darker: #871c1c;
+$color-danger-dark: #b22021;
+$color-danger: #db3030;
+$color-danger-light: #e16364;
+$color-danger-lighter: #f5aaaa;
+$color-danger-lightest: #f9e5e6;
+
+$color-warning-darkest: #5c4813;
+$color-warning-darker: #8c6d1f;
+$color-warning-dark: #caa53d;
+$color-warning: #f4ca64;
+$color-warning-light: #fae29f;
+$color-warning-lighter: #fdf3d7;
+$color-warning-lightest: #fffcf4;
+
+$color-success-darkest: #145138;
+$color-success-darker: #197741;
+$color-success-dark: #259d58;
+$color-success: #38c172;
+$color-success-light: #74d99f;
+$color-success-lighter: #a8eec1;
+$color-success-lightest: #e3fcec;
+
+$container-width: 1200px;
+$container-padding: $space-sm;
+
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
