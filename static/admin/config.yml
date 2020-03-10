@@ -4,6 +4,7 @@ backend:
 
 media_folder: "static/images/softwares" 
 public_folder: "/images/softwares"
+show_preview_links: true
 
 collections:
   - label: "Softwares"
