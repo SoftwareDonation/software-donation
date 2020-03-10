@@ -14,9 +14,13 @@ collections:
         name: "softwares"
         file: "data/softwares.json"
         fields:
-          - {label: Id, name: id, widget: string}
-          - {label: Name, name: name, widget: string}
-          - {label: Description, name: description, widget: text}
-          - {label: Eligibility, name: eligibility, widget: text}
-          - {label: Eligibility, name: url, widget: string}
-          - {label: Image, name: image, widget: image}
+          - label: "Softwares List"
+            name: "softwares"
+            widget: "list"
+            fields:
+            - {label: Id, name: id, widget: string}
+            - {label: Name, name: name, widget: string}
+            - {label: Description, name: description, widget: text}
+            - {label: Eligibility, name: eligibility, widget: text}
+            - {label: Url, name: url, widget: string}
+            - {label: Image, name: image, widget: image}
