@@ -38,3 +38,19 @@ collections:
             fields:
             - {label: Id, name: id, widget: string}
             - {label: Name, name: name, widget: string}
+  - label: "Softwares per cause"
+    name: "softwaress_cause"
+    folder: "data/causes"
+    create: true
+    extension: "json"
+    fields:
+      - label: "Category list"
+        name: "categories"
+        widget: "list"
+        fields:
+          - {label: Category name, name: name, widget: string}
+          - label: "Sofwares"
+            name: "softwares"
+            widget: "list"
+            fields:
+              - {label: Software Id, name: id, widget: string}
