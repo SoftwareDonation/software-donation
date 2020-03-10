@@ -2,17 +2,25 @@
   "id": "corona",
   "categories": [
     {
-      "name": "Software to work remotely",
+      "name": "Software to work remotely good",
       "softwares": [
-        { "id": "google-hangouts" },
-        { "id": "google-keep" }
+        {
+          "id": "google-hangouts"
+        },
+        {
+          "id": "google-keep"
+        }
       ]
     },
     {
       "name": "Software to work well",
       "softwares": [
-        { "id": "google-meets" },
-        { "id": "google-keep" }
+        {
+          "id": "google-meets"
+        },
+        {
+          "id": "google-keep"
+        }
       ]
     }
   ]
