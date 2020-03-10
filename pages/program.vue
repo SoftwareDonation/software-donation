@@ -49,3 +49,40 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.program {
+  $column-size: $container-width/2 - $container-padding;
+
+  &__section {
+    display: grid;
+    grid-template-columns: 1fr $column-size $column-size 1fr;
+  }
+
+  &__section-content {
+    &--first {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+    &--second {
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+  }
+
+  &__section-image {
+    &--first {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      background-image: url('/images/program/remote.jpg');
+    }
+
+    &--second {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background-image: url('/images/program/covid.jpg');
+    }
+  }
+}
+</style>
