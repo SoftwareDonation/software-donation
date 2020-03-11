@@ -2,7 +2,7 @@
   <base-container>
     <footer class="the-footer">
       <div>
-        <TheLogo />
+        <TheLogo class="the-footer__logo" />
         <p class="the-footer__text">{{ $t('footer.love') }}</p>
       </div>
       <div>
@@ -47,6 +47,10 @@ export default {
   width: 100%;
   justify-content: space-between;
   align-items: flex-end;
+
+  &__logo {
+    width: 200px;
+  }
 
   &__link {
     color: $color-primary;
