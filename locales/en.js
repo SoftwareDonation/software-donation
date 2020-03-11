@@ -54,6 +54,8 @@ module.exports = {
     get: 'Get it'
   },
   footer: {
-    love: 'Made with <❤/>'
+    love: 'Made with <❤/>',
+    newsletter: 'Keep updated with our newsletter',
+    github: 'and follow us on'
   }
 }

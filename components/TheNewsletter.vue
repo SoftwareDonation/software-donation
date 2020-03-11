@@ -44,6 +44,7 @@
 <style lang="scss">
 .newsletter {
   display: flex;
+  padding-bottom: $space-xxxs;
 }
 
 #mc_embed_signup form {
