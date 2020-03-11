@@ -48,6 +48,11 @@ export default {
   justify-content: space-between;
   align-items: flex-end;
 
+  @media screen and (max-width: $screen-md) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   &__logo {
     width: 200px;
   }
