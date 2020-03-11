@@ -23,6 +23,14 @@
       "eligibility": "For everyone",
       "url": "https://google.com",
       "image": "/images/softwares/icon.png"
+    },
+    {
+      "id": "test-test",
+      "name": "Test",
+      "description": "Hellow",
+      "eligibility": "Hi Eligible",
+      "url": "https://slack.com",
+      "image": "/images/softwares/icon.png"
     }
   ]
 }
