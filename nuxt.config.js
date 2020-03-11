@@ -17,7 +17,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: '//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css',
+        type: 'text/css'
+      }
+    ],
     script: [
       { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
     ]
