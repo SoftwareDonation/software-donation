@@ -22,11 +22,16 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
-  min-height: 500px;
-  height: 50vh;
+  min-height: 650px;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/images/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -5vw;
+  margin-bottom: -100px;
 
   &__title {
     font-size: $font-size-xxl;

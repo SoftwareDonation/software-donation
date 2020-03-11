@@ -1,8 +1,8 @@
 <template>
-  <header class="home-header">
+  <header class="program-header">
     <base-container>
-      <h1 class="home-header__title">{{ $t('program.hero.title') }}</h1>
-      <p class="home-header__description">
+      <h1 class="program-header__title">{{ $t('program.hero.title') }}</h1>
+      <p class="program-header__description">
         {{ $t('program.hero.description') }}
       </p>
       <base-button :href="donateLink" size="lg">{{
@@ -32,15 +32,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home-header {
+.program-header {
   background-color: #fff;
   text-align: center;
-  height: 60vh;
-  min-height: 500px;
+  height: 70vh;
+  min-height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: $space-xl;
 
   &__title {
     font-size: $font-size-xxl;

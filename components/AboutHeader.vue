@@ -21,6 +21,7 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
+  padding-top: $space-4xl;
   min-height: 300px;
   display: flex;
   align-items: center;

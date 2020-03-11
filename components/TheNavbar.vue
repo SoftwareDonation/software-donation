@@ -1,5 +1,7 @@
 <template>
-  <nav class="the-navbar">
+  <nav
+    :class="['the-navbar', { 'the-navbar__transparent': transparentNavbar }]"
+  >
     <base-container class="the-navbar__container">
       <div class="the-navbar__branding">
         <nuxt-link to="/">
@@ -49,7 +51,26 @@ export default {
           to: '/about'
         }
       ],
-      donateLink: DONATE_LINK
+      donateLink: DONATE_LINK,
+      transparentNavbar: true
+    }
+  },
+  created() {
+    if (process.browser) {
+      window.addEventListener('scroll', this.handleScroll) // eslint-disable-line
+    }
+  },
+  destroyed() {
+    if (process.browser) {
+      window.removeEventListener('scroll', this.handleScroll)
+    }
+  },
+  methods: {
+    handleScroll() {
+      const TRANSPARENT_NAVBAR_TRESHOLD = 100
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+      const activateTransparentNavbar = scrollTop < TRANSPARENT_NAVBAR_TRESHOLD
+      this.transparentNavbar = activateTransparentNavbar
     }
   }
 }
@@ -57,7 +78,19 @@ export default {
 
 <style lang="scss" scoped>
 .the-navbar {
-  background-color: #fff;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+  box-shadow: $shadow-elevation-2;
+  transition: all 0.3s ease;
+
+  &__transparent {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+  }
 
   &__container {
     display: flex;
