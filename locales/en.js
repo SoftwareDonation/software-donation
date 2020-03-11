@@ -16,6 +16,7 @@ module.exports = {
     }
   },
   program: {
+    meta_description: 'Support people and causes with the power of software',
     hero: {
       title: 'Support people and causes with the power of software',
       description:
@@ -39,6 +40,7 @@ module.exports = {
   },
   about: {
     title: 'About Software Donation',
+    meta_title: 'About',
     text: `Software Donation is an open source initiative to help you to support a cause you care about with the power of software`
   },
   donation_banner: {

@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { DONATE_LINK } from '../config'
+import { DONATE_LINK, MAIN_TITLE } from '../config'
 import ProgramHeader from '../components/ProgramHeader.vue'
 import DonationBanner from '../components/DonationBanner.vue'
 import BaseButton from '../components/BaseButton.vue'
@@ -45,6 +45,19 @@ export default {
   data() {
     return {
       donateLink: DONATE_LINK
+    }
+  },
+  head() {
+    const description = this.$t('program.meta_description')
+    return {
+      title: `${description} – ${MAIN_TITLE}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: description
+        }
+      ]
     }
   }
 }
