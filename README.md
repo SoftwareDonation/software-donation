@@ -1,8 +1,10 @@
-# software-donation
+# Software Donation ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 > Empower those in need with the power of software
 
-## Build Setup
+https://softwaredonation.org
+
+## 📖 Build Setup
 
 ``` bash
 # install dependencies
@@ -21,8 +23,12 @@ $ npm run generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-## Download logos
-Try to get logos from their website
+## 🖼 Download logos
+
+Download softwares logos automatically based on their `url` and `image` that are on `data/softwares.json`
 ```
 npm run get-logos
 ```
+
+## ⭐️ Show your support
+Please ⭐️ this repository if this project helped you!
