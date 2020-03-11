@@ -6,6 +6,8 @@ export default {
   mode: 'universal',
   /*
    ** Headers of the page
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
    */
   head: {
     title: `${MAIN_TITLE} – ${MAIN_DESCRIPTION}`,
@@ -16,10 +18,32 @@ export default {
         hid: 'description',
         name: 'description',
         content: MAIN_DESCRIPTION
-      }
+      },
+      { name: 'msapplication-TileColor', content: '#ffffff' },
+      { name: 'theme-color', content: '#3183c8' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      {
+        rel: 'icon',
+        type: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/apple-touch-icon.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png'
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png'
+      },
+      { rel: 'mask-icon', color: '#3183c8', href: '/safari-pinned-tab.svg' },
       {
         rel: 'stylesheet',
         href: '//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css',
