@@ -75,6 +75,8 @@ export default {
 
     @media screen and (max-width: $screen-lg) {
       grid-template-columns: 1fr;
+      height: auto;
+      min-height: 700px;
     }
 
     &--second {

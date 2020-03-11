@@ -33,6 +33,12 @@ export default {
   background-position-y: -5vw;
   margin-bottom: -100px;
 
+  @media screen and (max-width: $screen-md) {
+    margin-bottom: 0;
+    height: auto;
+    min-height: 400px;
+  }
+
   &__title {
     font-size: $font-size-xxl;
     margin: 0 auto;

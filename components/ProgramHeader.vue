@@ -41,6 +41,12 @@ export default {
   align-items: center;
   justify-content: center;
 
+  @media screen and (max-width: $screen-md) {
+    margin-bottom: 0;
+    height: auto;
+    min-height: 600px;
+  }
+
   &__title {
     font-size: $font-size-xxl;
     margin: 0 auto;

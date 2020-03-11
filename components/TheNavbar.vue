@@ -16,7 +16,7 @@
         >
           <nuxt-link :to="link.to">{{ link.title }}</nuxt-link>
         </li>
-        <li class="the-navbar__link">
+        <li class="the-navbar__link the-navbar__link--button">
           <base-button :href="donateLink" type="primary">
             {{ $t('navigation.donate') }}
           </base-button>
@@ -92,6 +92,12 @@ export default {
     box-shadow: none;
   }
 
+  @media screen and (max-width: $screen-md) {
+    padding-top: $space-sm;
+    position: static;
+    background: #fff;
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -121,6 +127,14 @@ export default {
     @media screen and (max-width: $screen-md) {
       margin: 0 $space-xs;
       text-align: center;
+
+      a {
+        font-size: $font-size-xxs;
+      }
+
+      &--button {
+        display: none;
+      }
     }
   }
 }
