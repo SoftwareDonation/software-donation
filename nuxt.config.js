@@ -1,5 +1,6 @@
 import messages from './locales'
 import getCauses from './services/getCauses'
+import { MAIN_TITLE, MAIN_DESCRIPTION } from './config'
 
 export default {
   mode: 'universal',
@@ -7,14 +8,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Software Donation',
+    title: `${MAIN_TITLE} – ${MAIN_DESCRIPTION}`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: MAIN_DESCRIPTION
       }
     ],
     link: [

@@ -53,6 +53,9 @@ module.exports = {
   software: {
     get: 'Get it'
   },
+  cause: {
+    meta_description: 'Donated softwares to'
+  },
   footer: {
     love: 'Made with <❤/>',
     newsletter: 'Keep updated with our newsletter',
