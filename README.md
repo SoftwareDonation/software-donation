@@ -1,4 +1,4 @@
-# Software Donation ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
+# Software Donation [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > Empower those in need with the power of software
 
