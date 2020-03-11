@@ -2,7 +2,7 @@
   <div id="mc_embed_signup" class="mailchimp topbar__col newsletter">
     <form
       id="mc-embedded-subscribe-form"
-      action="https://uno.us20.list-manage.com/subscribe/post?u=4a2a7b708df81d273335e6898&amp;id=75688e66b7"
+      action="https://softwaredonation.us19.list-manage.com/subscribe/post?u=752a7ff39014907dee6f7dbb2&amp;id=c5bb9dd065"
       method="post"
       name="mc-embedded-subscribe-form"
       class="validate"
@@ -22,7 +22,7 @@
         <div style="position: absolute; left: -5000px;" aria-hidden="true">
           <input
             type="text"
-            name="b_4a2a7b708df81d273335e6898_75688e66b7"
+            name="b_752a7ff39014907dee6f7dbb2_c5bb9dd065"
             tabindex="-1"
             value
           />
