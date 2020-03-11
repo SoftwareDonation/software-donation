@@ -11,6 +11,7 @@
           :to="getCauseLink(cause)"
           :is-selected="isCauseSelected(cause)"
           type="selector"
+          size="lg"
           class="softwares-causes__buttons"
         >
           {{ cause.name }}
@@ -94,7 +95,7 @@ export default {
 
   &__buttons {
     margin-right: $space-xs;
-    margin-bottom: $space-md;
+    margin-bottom: $space-lg;
   }
 }
 
