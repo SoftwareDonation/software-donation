@@ -5,6 +5,7 @@ backend:
 media_folder: "static/images/softwares" 
 public_folder: "/images/softwares"
 show_preview_links: true
+site_url: https://softwaredonation.org/
 
 collections:
   - label: "Softwares"
