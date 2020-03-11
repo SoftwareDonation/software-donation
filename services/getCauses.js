@@ -1,7 +1,7 @@
-import causes from '../data/causes.json'
+import causesData from '../data/causes.json'
 
 const getCauses = () => {
-  return causes
+  return causesData.causes
 }
 
 export default getCauses

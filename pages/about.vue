@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { MAIN_TITLE } from '../config'
 import AboutHeader from '../components/AboutHeader.vue'
 import BaseContainer from '../components/BaseContainer.vue'
 
@@ -16,6 +17,11 @@ export default {
   components: {
     AboutHeader,
     BaseContainer
+  },
+  head() {
+    return {
+      title: `${this.$t('about.meta_title')} – ${MAIN_TITLE}`
+    }
   }
 }
 </script>

@@ -1,25 +1,28 @@
-[
-  {
-    "id": "google-meets",
-    "name": "Google Meets",
-    "description": "Google meets help you chat with people",
-    "eligibility": "For student only",
-    "url": "https://google.com",
-    "image": "meet.png"
-  },
-  {
-    "id": "google-hangouts",
-    "name": "Google Hangouts",
-    "description": "Google hangouts help you chat with people",
-    "eligibility": "For everyone",
-    "url": "https://google.com",
-    "image": "meet.png"
-  },
-  {
-    "id": "google-keep",
-    "name": "Google Keep",
-    "description": "Google hangouts help you chat with people",
-    "eligibility": "For everyone",
-    "url": "https://google.com"
-  }
-]
+{
+  "softwares": [
+    {
+      "id": "google-meets",
+      "name": "Google Meets",
+      "description": "Google meets help you chat with people",
+      "eligibility": "For student only",
+      "url": "https://google.com",
+      "image": "/images/softwares/meet.png"
+    },
+    {
+      "id": "google-hangouts",
+      "name": "Google Hangouts",
+      "description": "Google hangouts help you chat with people",
+      "eligibility": "For everyone",
+      "url": "https://google.com",
+      "image": "/images/softwares/meet.png"
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "description": "Google hangouts help you chat with people",
+      "eligibility": "For everyone",
+      "url": "https://google.com",
+      "image": "/images/softwares/icon.png"
+    }
+  ]
+}

@@ -1,8 +1,10 @@
-# software-donation
+# Software Donation [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > Empower those in need with the power of software
 
-## Build Setup
+https://softwaredonation.org
+
+## 📖 Build Setup
 
 ``` bash
 # install dependencies
@@ -20,3 +22,13 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## 🖼 Download logos
+
+Download softwares logos automatically based on their `url` and `image` that are on `data/softwares.json`
+```
+npm run get-logos
+```
+
+## ⭐️ Show your support
+Please ⭐️ this repository if this project helped you!

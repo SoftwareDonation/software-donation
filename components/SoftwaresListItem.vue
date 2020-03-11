@@ -3,8 +3,8 @@
     <div class="software-list-item__row software-list-item__row--spaced">
       <div class="software-list-item__row">
         <img
-          v-if="imageLink"
-          :src="imageLink"
+          v-if="image"
+          :src="image"
           :alt="alt"
           class="software-list-item__image"
         />
@@ -65,9 +65,6 @@ export default {
     }
   },
   computed: {
-    imageLink() {
-      return this.image !== null && `/images/companies/${this.image}`
-    },
     alt() {
       return `${this.name} logo`
     }

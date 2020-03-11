@@ -1,5 +1,6 @@
 import messages from './locales'
 import getCauses from './services/getCauses'
+import { MAIN_TITLE, MAIN_DESCRIPTION } from './config'
 
 export default {
   mode: 'universal',
@@ -7,17 +8,27 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: `${MAIN_TITLE} – ${MAIN_DESCRIPTION}`,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: MAIN_DESCRIPTION
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: '//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css',
+        type: 'text/css'
+      }
+    ],
+    script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -40,7 +51,13 @@ export default {
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-159943888-1'
+      }
+    ]
   ],
   /*
    ** Nuxt.js modules

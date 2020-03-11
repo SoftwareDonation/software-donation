@@ -43,7 +43,7 @@ export default {
       let className
 
       if (this.type === 'selector') {
-        className = 'selector'
+        className = 'selector' + ' selector--' + this.size
       } else if (this.type !== null) {
         className = 'button button--' + this.type + ' button--' + this.size
       } else {
@@ -141,6 +141,12 @@ export default {
     background-color: $color-primary-lightest;
     color: $color-primary;
     border: 1px solid $color-primary-light;
+  }
+
+  &--lg {
+    font-size: $font-size-md;
+    padding: $space-xs $space-md;
+    font-weight: 400;
   }
 }
 </style>
