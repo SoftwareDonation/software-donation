@@ -15,6 +15,62 @@
       "eligibility": "Premium version of Teams for free for six months for everyone and existing user limits have been lifted on its free version.",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/",
       "image": "/images/softwares/microsoft-teams-logo.jpg"
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "description": "Free Screen & Video Recording Software - Easily record your screen or a specific app, with or without your camera.",
+      "eligibility": "Loom Pro is now free for education. Through July 1, no recording limit on free plan, Loom Pro trials extended from 14 to 30 days and the Loom Pro price is cut in half — from $10 month to $5 month",
+      "url": "https://www.loom.com/blog/coronavirus-response",
+      "image": "/images/softwares/loom-logo.jpg"
+    },
+    {
+      "id": "logmein",
+      "name": "LogMeIn",
+      "description": "LogMeIn created Emergency Remote Work Kits which include GoToMeeting, GoToWebinar--where users can host presentations for up to 3,000 users--and LogMeIn, which provides remote desktop access from numerous devices.",
+      "eligibility": "Available for free for three months for nonprofits, schools, and health care organizations that aren't already customers.",
+      "url": "https://blog.gotomeeting.com/coronavirus-disruptions-and-support/",
+      "image": "/images/softwares/logmein-logo.jpg"
+    },
+    {
+      "id": "remotehq",
+      "name": "RemoteHQ",
+      "description": "Real-time collaboration for distributed teams, offering video conferencing, screen share, co-browsing, file sharing, whiteboarding, joint note-taking, audio recoring and many more.",
+      "eligibility": "Free access to all new users.",
+      "url": "https://www.remotehq.com/stay-healthy",
+      "image": "/images/softwares/remotehq-logo.jpg"
+    },
+    {
+      "id": "tandem",
+      "name": "Tandem",
+      "description": "Virtual office for remote teams allowing its users to see, talk to, and collaborate with their team in one click.",
+      "eligibility": "Free access to all new users for the next few months.",
+      "url": "https://tandem.chat/coronavirus",
+      "image": "/images/softwares/tandem-logo.jpg"
+    },
+    {
+      "id": "cisco-webex",
+      "name": "Cisco Webex",
+      "description": "Video conferencing, online meetings, screen share.",
+      "eligibility": "Free version with no time restrictions, allowing up to 100 meeting participants and has added toll-free dial-in features with a  90-day license for businesses that are not already customers.",
+      "url": "https://blog.webex.com/video-conferencing/cisco-webex-supporting-customers-during-this-unprecedented-time/",
+      "image": "/images/softwares/cisco-webex-logo.jpg"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "description": "Video conferencing, online Meetings, screen share",
+      "eligibility": "Already have a free version but now extended its free plan in China to allow unlimited meeting times and breakout rooms, and removed restrictions on participant limits.",
+      "url": "https://blog.zoom.us/wordpress/2020/02/26/zoom-commitment-user-support-business-continuity-during-coronavirus-outbreak/",
+      "image": "/images/softwares/zoom-logo.jpg"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": " Voice, text chat andlive streaming for your team",
+      "eligibility": "Go Live streaming limit from 10 to 50 people for everyone for the next few months.",
+      "url": "https://support.discordapp.com/hc/en-us/articles/360030714312-Stream-your-game-with-Go-Live-",
+      "image": "/images/softwares/discord-logo.jpg"
     }
   ]
 }
