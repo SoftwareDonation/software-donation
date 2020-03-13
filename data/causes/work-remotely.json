@@ -5,10 +5,10 @@
       "name": "Software to work remotely",
       "softwares": [
         {
-          "id": "google-hangouts"
+          "id": "hangouts-meet"
         },
         {
-          "id": "google-keep"
+          "id": "microsoft-teams"
         }
       ]
     }
