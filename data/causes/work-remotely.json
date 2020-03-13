@@ -1,11 +1,15 @@
 {
-  "title": "remote",
+  "title": "work-remotely",
   "categories": [
     {
       "name": "Software to work remotely",
       "softwares": [
-        { "id": "google-hangouts" },
-        { "id": "google-keep" }
+        {
+          "id": "google-hangouts"
+        },
+        {
+          "id": "google-keep"
+        }
       ]
     }
   ]
