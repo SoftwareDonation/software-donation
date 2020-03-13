@@ -1,36 +1,20 @@
 {
   "softwares": [
     {
-      "id": "google-meets",
-      "name": "Google Meets",
-      "description": "Google meets help you chat with people",
-      "eligibility": "For student only",
-      "url": "https://google.com",
+      "id": "hangouts-meet",
+      "name": "Hangouts Meet",
+      "description": "Online vide conferencing with 250 users per call, the ability to record meetings, and livestream capabilities for up to 100,000 viewers.",
+      "eligibility": "For all G Suite and G Suite for Education users until July 1, 2020.",
+      "url": "https://cloud.google.com/blog/products/g-suite/helping-businesses-and-schools-stay-connected-in-response-to-coronavirus",
       "image": "/images/softwares/meet.png"
     },
     {
-      "id": "google-hangouts",
-      "name": "Google Hangouts",
-      "description": "Google hangouts help you chat with people",
-      "eligibility": "For everyone",
-      "url": "https://google.com",
-      "image": "/images/softwares/meet.png"
-    },
-    {
-      "id": "google-keep",
-      "name": "Google Keep",
-      "description": "Google hangouts help you chat with people",
-      "eligibility": "For everyone",
-      "url": "https://google.com",
-      "image": "/images/softwares/icon.png"
-    },
-    {
-      "id": "test-test",
-      "name": "Test",
-      "description": "Hellow",
-      "eligibility": "Hi Eligible",
-      "url": "https://slack.com",
-      "image": "/images/softwares/icon.png"
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "description": "Hub for team collaboration in Office 365 that integrates the people, content, and tools your team needs to be more engaged and effective.",
+      "eligibility": "Premium version of Teams for free for six months for everyone and existing user limits have been lifted on its free version.",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/",
+      "image": "/images/softwares/microsoft-teams-logo.jpg"
     }
   ]
 }

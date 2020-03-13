@@ -2,11 +2,8 @@
   "title": "fight-covid-19",
   "categories": [
     {
-      "name": "Work remotely",
+      "name": "Remote Meetings",
       "softwares": [
-        {
-          "id": "hangouts-meet"
-        },
         {
           "id": "microsoft-teams"
         }
@@ -14,14 +11,7 @@
     },
     {
       "name": "Software to work well",
-      "softwares": [
-        {
-          "id": "google-meets"
-        },
-        {
-          "id": "google-keep"
-        }
-      ]
+      "softwares": []
     }
   ]
 }
