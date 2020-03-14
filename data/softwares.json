@@ -71,6 +71,14 @@
       "eligibility": "Go Live streaming limit from 10 to 50 people for everyone for the next few months.",
       "url": "https://support.discordapp.com/hc/en-us/articles/360030714312-Stream-your-game-with-Go-Live-",
       "image": "/images/softwares/discord-logo.jpg"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "description": "Collaborative whiteboard platform for distributed teams",
+      "eligibility": "Free up to 3 whiteboards for all users and free premium plan for public non-profit educational institutions including unlimited boards and unlimited collaborators.",
+      "url": "https://help.miro.com/hc/en-us/articles/360017730473-Education-Plan",
+      "image": "/images/softwares/discord-logo.jpg"
     }
   ]
 }
