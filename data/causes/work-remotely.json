@@ -2,13 +2,58 @@
   "title": "work-remotely",
   "categories": [
     {
-      "name": "Remote Meetings",
+      "name": "Remote Communication",
       "softwares": [
         {
           "id": "hangouts-meet"
         },
         {
           "id": "microsoft-teams"
+        },
+        {
+          "id": "zoom"
+        },
+        {
+          "id": "cisco-webex"
+        },
+        {
+          "id": "logmein"
+        },
+        {
+          "id": "discord"
+        }
+      ]
+    },
+    {
+      "name": "Remote Collaboration",
+      "softwares": [
+        {
+          "id": "miro"
+        },
+        {
+          "id": "loom"
+        }
+      ]
+    },
+    {
+      "name": "Remote Office",
+      "softwares": [
+        {
+          "id": "remotehq"
+        },
+        {
+          "id": "tandem"
+        }
+      ]
+    },
+    {
+      "name": "Remote File Sharing",
+      "softwares": [
+        {
+          "id": "dropbox"
+        },
+        {
+          "id": "box"
         }
       ]
     }
