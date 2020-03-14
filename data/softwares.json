@@ -79,6 +79,22 @@
       "eligibility": "Free up to 3 whiteboards for all users and free premium plan for public non-profit educational institutions including unlimited boards and unlimited collaborators.",
       "url": "https://help.miro.com/hc/en-us/articles/360017730473-Education-Plan",
       "image": "/images/softwares/discord-logo.jpg"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "description": "Upload and transfer files to the cloud, and share them with anyone with any of your computers or mobile devices—from anywhere",
+      "eligibility": "Free Dropbox Business subscriptions for a three-month period to nonprofits and NGOs that are focused on fighting COVID-19.",
+      "url": "https://go.dropbox.com/en-us/covid19-donation-program",
+      "image": "/images/softwares/dropbox-logo.jpg"
+    },
+    {
+      "id": "box",
+      "name": "Box",
+      "description": "A single place to manage, secure, share and govern all of the content for your internal and external collaboration and processes",
+      "eligibility": "Box business edition free for 90 days here for any small and medium businesses",
+      "url": "https://account.box.com/signup/business?tl=oWgBWV",
+      "image": "/images/softwares/box-logo.jpg"
     }
   ]
 }
