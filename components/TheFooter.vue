@@ -3,12 +3,18 @@
     <footer class="the-footer">
       <div>
         <TheLogo class="the-footer__logo" />
-        <p class="the-footer__text">{{ $t('footer.love') }}</p>
+        <p class="the-footer__social">
+          {{ $t('footer.follow') }} ‒
+          <span v-for="(socialLink, index) in socialLinks" :key="index">
+            <a href="socialLink.href" class="the-footer__link">
+              {{ socialLink.title }}
+            </a>
+          </span>
+        </p>
       </div>
       <div>
-        <p>
-          {{ $t('footer.newsletter') }} {{ $t('footer.github') }}
-          <a :href="githubLink" class="the-footer__link">GitHub</a>
+        <p class="the-footer__follow">
+          {{ $t('footer.newsletter') }}
         </p>
         <TheNewsletter />
       </div>
@@ -31,7 +37,12 @@ export default {
   },
   data() {
     return {
-      githubLink: GITHUB_LINK
+      socialLinks: [
+        {
+          title: 'GitHub',
+          href: GITHUB_LINK
+        }
+      ]
     }
   }
 }
@@ -46,11 +57,19 @@ export default {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 
   @media screen and (max-width: $screen-md) {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  &__follow {
+    margin-top: $space-xxxs;
+  }
+
+  &__social {
+    margin-top: 0;
   }
 
   &__logo {

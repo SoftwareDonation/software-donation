@@ -63,6 +63,6 @@ module.exports = {
   footer: {
     love: 'Made with <❤/>',
     newsletter: 'Be the first one to know about the causes and tools',
-    github: 'and follow us on'
+    follow: 'Follow-us'
   }
 }
