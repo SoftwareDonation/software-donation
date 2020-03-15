@@ -108,7 +108,8 @@ export default {
   }
 
   &__title {
-    margin-bottom: $space-sm;
+    margin-bottom: $space-md;
+    font-size: $font-size-lg;
   }
 
   &__grid {
