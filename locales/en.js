@@ -1,8 +1,8 @@
 module.exports = {
   navigation: {
     donate: 'Donate now',
-    program: 'Donation program',
-    about: 'About',
+    program: 'DONATION PROGRAM',
+    about: 'ABOUT',
     logo: '<❤/>'
   },
   home: {
@@ -39,9 +39,9 @@ module.exports = {
     }
   },
   about: {
-    title: 'About Software Donation',
+    title: 'Software Donation Initiative',
     meta_title: 'About',
-    text: `Software Donation is an open source initiative to help you to support a cause you care about with the power of software`
+    text: `Software Donation is an open-source foundation that aims to create a platform where software companies can join and donate their tools to empower those in need. We are currently focused on COVID-19 and accept companies in remote working and distance learning industries. Our mission is to create awareness around intangible donations like tools and help companies with their software donation strategy. We're currently accepting companies to become our founding members. If you're interested, simply reach us out at info@softwaredonation.org.`
   },
   donation_banner: {
     title: 'Your software can help people ?',
@@ -60,7 +60,7 @@ module.exports = {
   },
   footer: {
     love: 'Made with <❤/>',
-    newsletter: 'Keep updated with our newsletter',
+    newsletter: 'Be the first one to know about the causes and tools',
     github: 'and follow us on'
   }
 }
