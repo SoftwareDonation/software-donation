@@ -106,7 +106,7 @@ $image-size: 42px;
     margin-right: 16px;
     background-color: $color-grey-light;
     border-radius: 3px;
-    padding: 4px;
+    padding: 8px;
     box-sizing: border-box;
 
     &--placeholder {
