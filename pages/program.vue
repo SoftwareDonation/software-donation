@@ -25,21 +25,18 @@
         </div>
       </section>
     </main>
-    <DonationBanner />
   </div>
 </template>
 
 <script>
 import { DONATE_LINK, MAIN_TITLE } from '../config'
 import ProgramHeader from '../components/ProgramHeader.vue'
-import DonationBanner from '../components/DonationBanner.vue'
 import BaseButton from '../components/BaseButton.vue'
 
 export default {
   title: 'Program',
   components: {
     ProgramHeader,
-    DonationBanner,
     BaseButton
   },
   data() {
@@ -72,6 +69,7 @@ export default {
     grid-template-columns: 1fr $column-size $column-size 1fr;
     height: 70vh;
     min-height: 400px;
+    margin-bottom: -2px;
 
     @media screen and (max-width: $screen-lg) {
       grid-template-columns: 1fr;
@@ -89,6 +87,7 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: $color-grey-light;
 
     &--first {
       grid-column-start: 2;
