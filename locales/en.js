@@ -20,21 +20,21 @@ module.exports = {
     hero: {
       title: 'Transform lives and create impact with the power of software',
       description:
-        'You software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
+        'Your software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
       button: 'JOIN NOW'
     },
     sections: {
       first: {
-        title: 'Donate remote working tools to empower companies work remotely',
+        title: 'Donate remote working tools to empower companies to work remotely',
         description:
-          'Remote working tools can enable those in quarantined cities to continue their work. Join and donate premium access of your tool to those in need.',
-        button: 'Start donating'
+          'Remote working tools can enable those in quarantined cities to continue their work. Join and donate premium access to your tool to those in need.',
+        button: 'START DONATING'
       },
       second: {
-        title: 'Donate online studying tools to enable students continue their study',
+        title: 'Donate online studying tools to enable students to continue their study',
         description:
           'Distance learning tools can create a big impact by enabling distance learning for schools and universities. Join and donate your software access. ',
-        button: 'Start donating'
+        button: 'START DONATING'
       }
     }
   },
