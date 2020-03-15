@@ -57,6 +57,14 @@ module.exports = {
   software: {
     get: 'Get it'
   },
+  empty_list: {
+    title:
+      "We're currently working on curating the most effective tools for distance learning.",
+    newsletter:
+      "Would like to hear once it's available? Subscribe to our newsletter",
+    donate: 'Do you have a distance learning tool and would like to donate?',
+    button: 'Donate Now'
+  },
   cause: {
     meta_description: 'Donated softwares to'
   },

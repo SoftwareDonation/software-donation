@@ -47,6 +47,10 @@
   padding-bottom: $space-xxxs;
 }
 
+#mc-embedded-subscribe-form {
+  width: 100% !important;
+}
+
 #mc_embed_signup form {
   padding: 0;
   @media screen and (max-width: $screen-md) {
