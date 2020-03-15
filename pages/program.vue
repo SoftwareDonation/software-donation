@@ -69,7 +69,7 @@ export default {
     grid-template-columns: 1fr $column-size $column-size 1fr;
     height: 70vh;
     min-height: 400px;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 
     @media screen and (max-width: $screen-lg) {
       grid-template-columns: 1fr;
@@ -114,7 +114,7 @@ export default {
     &--first {
       grid-column-start: 3;
       grid-column-end: 5;
-      background-image: url('/images/program/remote.jpg');
+      background-image: url('/images/program/student1.jpg');
       @media screen and (max-width: $screen-lg) {
         order: -1;
       }
@@ -123,7 +123,7 @@ export default {
     &--second {
       grid-column-start: 1;
       grid-column-end: 3;
-      background-image: url('/images/program/covid.jpg');
+      background-image: url('/images/program/student2.jpg');
     }
 
     @media screen and (max-width: $screen-lg) {
