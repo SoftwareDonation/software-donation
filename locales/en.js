@@ -16,7 +16,8 @@ module.exports = {
     }
   },
   program: {
-    meta_description: 'Transform lives and create impact with the power of software',
+    meta_description:
+      'Transform lives and create impact with the power of software',
     hero: {
       title: 'Transform lives and create impact with the power of software',
       description:
@@ -25,13 +26,15 @@ module.exports = {
     },
     sections: {
       first: {
-        title: 'Donate remote working tools to empower companies to work remotely',
+        title:
+          'Donate remote working tools to empower companies to work remotely',
         description:
           'Remote working tools can enable those in quarantined cities to continue their work. Join and donate premium access to your tool to those in need.',
         button: 'START DONATING'
       },
       second: {
-        title: 'Donate online studying tools to enable students to continue their study',
+        title:
+          'Donate online studying tools to enable students to continue their study',
         description:
           'Distance learning tools can create a big impact by enabling distance learning for schools and universities. Join and donate your software access. ',
         button: 'START DONATING'

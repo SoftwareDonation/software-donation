@@ -1,12 +1,12 @@
 {
   "causes": [
     {
-      "id": "fight-covid-19",
-      "name": "Fight COVID-19"
-    },
-    {
       "id": "work-remotely",
       "name": "Work Remotely"
+    },
+    {
+      "id": "fight-covid-19",
+      "name": "Fight COVID-19"
     }
   ]
 }

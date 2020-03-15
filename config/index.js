@@ -1,4 +1,4 @@
-export const DEFAULT_CAUSE = 'fight-covid-19'
+export const DEFAULT_CAUSE = 'work-remotely'
 export const DONATE_LINK = 'https://www.sandoche.com'
 export const GITHUB_LINK = 'https://github.com/SoftwareDonation'
 export const MAIN_TITLE = 'Software Donation'
