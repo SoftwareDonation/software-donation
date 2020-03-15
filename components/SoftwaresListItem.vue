@@ -16,7 +16,9 @@
         </div>
         <h4>{{ name }}</h4>
       </div>
-      <base-button :href="url">{{ $t('software.get') }}</base-button>
+      <base-button :href="url" target="_blank">{{
+        $t('software.get')
+      }}</base-button>
     </div>
     <p class="software-list-item__description">{{ description }}</p>
     <p class="software-list-item__eligibility">{{ eligibility }}</p>
