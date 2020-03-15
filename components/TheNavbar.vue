@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .the-navbar {
   top: 0;
   left: 0;
@@ -132,7 +132,7 @@ export default {
       }
 
       &--button {
-        display: none;
+        font-size: $font-size-xxs;
       }
     }
   }

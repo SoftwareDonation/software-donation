@@ -46,6 +46,7 @@ export default {
     max-width: 800px;
 
     @media screen and (max-width: $screen-lg) {
+      padding-top: $space-md;
       font-size: $font-size-xl;
     }
   }
