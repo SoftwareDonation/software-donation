@@ -17,8 +17,8 @@
           <nuxt-link :to="link.to">{{ link.title }}</nuxt-link>
         </li>
         <li class="the-navbar__link the-navbar__link--button">
-          <base-button :href="donateLink" type="primary">
-            {{ $t('navigation.donate') }}
+          <base-button :to="donateLink" type="primary">
+            {{ $t('navigation.program') }}
           </base-button>
         </li>
       </ul>
@@ -27,7 +27,6 @@
 </template>
 
 <script>
-import { DONATE_LINK } from '../config'
 import TheLogo from './TheLogo'
 import BaseContainer from './BaseContainer'
 import BaseButton from './BaseButton'
@@ -43,15 +42,11 @@ export default {
     return {
       links: [
         {
-          title: this.$t('navigation.program'),
-          to: '/program'
-        },
-        {
           title: this.$t('navigation.about'),
           to: '/about'
         }
       ],
-      donateLink: DONATE_LINK,
+      donateLink: '/program',
       transparentNavbar: true
     }
   },
