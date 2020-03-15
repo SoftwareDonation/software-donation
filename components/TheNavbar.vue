@@ -52,6 +52,7 @@ export default {
   },
   created() {
     if (process.browser) {
+      this.updateNavbar()
       window.addEventListener('scroll', this.handleScroll) // eslint-disable-line
     }
   },
@@ -61,11 +62,14 @@ export default {
     }
   },
   methods: {
-    handleScroll() {
+    updateNavbar() {
       const TRANSPARENT_NAVBAR_TRESHOLD = 100
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop
       const activateTransparentNavbar = scrollTop < TRANSPARENT_NAVBAR_TRESHOLD
       this.transparentNavbar = activateTransparentNavbar
+    },
+    handleScroll() {
+      this.updateNavbar()
     }
   }
 }
