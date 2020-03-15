@@ -7,33 +7,33 @@ module.exports = {
   },
   home: {
     hero: {
-      headline: 'Join a cause and take advantage of powerful tools',
+      headline: 'Transforming lives through access to powerful software',
       description:
-        'Software Donation is an open source initiative to help you to support a cause you care about with the power of software'
+        'Software Donation is an open source initiative to transform and create impact with the power of software tools.'
     },
     causes: {
-      call_to_action_sentence: 'Find software for your cause'
+      call_to_action_sentence: 'Tools to help you during COVID-19'
     }
   },
   program: {
-    meta_description: 'Support people and causes with the power of software',
+    meta_description: 'Transform lives and create impact with the power of software',
     hero: {
-      title: 'Support people and causes with the power of software',
+      title: 'Transform lives and create impact with the power of software',
       description:
-        'Make an impact by providing software tools, free premium subscriptions, codes to create a change. Join Google and many other companies who are donating their software.',
-      button: 'Start donating now'
+        'You software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
+      button: 'JOIN NOW'
     },
     sections: {
       first: {
-        title: 'Donate remote working tools to quarantined cities',
+        title: 'Donate remote working tools to empower companies work remotely',
         description:
-          'Remote working tools can enable those in quarantined cities to continue their work or study. Join and donate premium access of your tool to those in need.',
+          'Remote working tools can enable those in quarantined cities to continue their work. Join and donate premium access of your tool to those in need.',
         button: 'Start donating'
       },
       second: {
-        title: 'Help fight coronavirus with code, data and algorithm',
+        title: 'Donate online studying tools to enable students continue their study',
         description:
-          'Donate dataset, code, algorithm or any other resource that others might use to progress in fighting COVID-19. Many people donating chest x-rays which helps training models to detect covid-19 in early stages.',
+          'Distance learning tools can create a big impact by enabling distance learning for schools and universities. Join and donate your software access. ',
         button: 'Start donating'
       }
     }
