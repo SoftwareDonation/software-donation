@@ -4,7 +4,7 @@
       "id": "hangouts-meet",
       "name": "Hangouts Meet",
       "description": "Video conferencing from Google that integrates with G Suite versions of Google Calendar and Gmail",
-      "eligibility": "DONATION: Free for all users until July 1, 2020, offering up to 250 users per call, the ability to record meetings, and livestream capabilities for up to 100,000 viewers",
+      "eligibility": "🎁 Free for all users until July 1, 2020, offering up to 250 users per call, the ability to record meetings, and livestream capabilities for up to 100,000 viewers",
       "url": "https://cloud.google.com/blog/products/g-suite/helping-businesses-and-schools-stay-connected-in-response-to-coronavirus",
       "image": "/images/softwares/meet-logo.png"
     },
@@ -12,7 +12,7 @@
       "id": "microsoft-teams",
       "name": "Microsoft Teams",
       "description": "Hub for team collaboration in Office 365 that integrates the people, content, and tools your team needs to be more engaged and effective",
-      "eligibility": "DONATION: Premium version of Teams for free for six months for everyone and existing user limits have been lifted on its free version",
+      "eligibility": "🎁 Premium version of Teams for free for six months for everyone and existing user limits have been lifted on its free version",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/",
       "image": "/images/softwares/teams-logo.png"
     },
@@ -20,7 +20,7 @@
       "id": "loom",
       "name": "Loom",
       "description": "Screen & video Recording software",
-      "eligibility": "DONATION: Loom Pro is now free for education. Through July 1, no recording limit on free plan, Loom Pro trials extended from 14 to 30 days and the Loom Pro price is cut in half — from $10 month to $5 month",
+      "eligibility": "🎁 Loom Pro is now free for education. Through July 1, no recording limit on free plan, Loom Pro trials extended from 14 to 30 days and the Loom Pro price is cut in half — from $10 month to $5 month",
       "url": "https://www.loom.com/blog/coronavirus-response",
       "image": "/images/softwares/loom-logo.png"
     },
@@ -28,7 +28,7 @@
       "id": "logmein",
       "name": "LogMeIn",
       "description": "Emergency Remote Work Kits which include GoToMeeting and GoToWebinar, where users can host presentations for up to 3,000 users",
-      "eligibility": "DONATION: Available for free for three months for nonprofits, schools, and health care organizations that aren't already customers",
+      "eligibility": "🎁 Available for free for three months for nonprofits, schools, and health care organizations that aren't already customers",
       "url": "https://blog.gotomeeting.com/coronavirus-disruptions-and-support/",
       "image": "/images/softwares/logmein-logo.png"
     },
@@ -36,7 +36,7 @@
       "id": "remotehq",
       "name": "RemoteHQ",
       "description": "Real-time collaboration for distributed teams, offering video conferencing, screen share, co-browsing, file sharing, whiteboarding, joint note-taking, audio recoring and many more",
-      "eligibility": "DONATION: Free access to all new users",
+      "eligibility": "🎁 Free access to all new users",
       "url": "https://www.remotehq.com/stay-healthy",
       "image": "/images/softwares/remotehq-logo.png"
     },
@@ -44,7 +44,7 @@
       "id": "tandem",
       "name": "Tandem",
       "description": "Virtual office for remote teams allowing its users to see, talk to, and collaborate with their team in one click",
-      "eligibility": "DONATION: Free access to all new users for the next few months",
+      "eligibility": "🎁 Free access to all new users for the next few months",
       "url": "https://tandem.chat/coronavirus",
       "image": "/images/softwares/tandem-logo.png"
     },
@@ -52,7 +52,7 @@
       "id": "cisco-webex",
       "name": "Cisco Webex",
       "description": "Video conferencing, online meetings, screen share",
-      "eligibility": "DONATION: Free version with no time restrictions, allowing up to 100 meeting participants and has added toll-free dial-in features with a  90-day license for businesses that are not already customers",
+      "eligibility": "🎁 Free version with no time restrictions, allowing up to 100 meeting participants and has added toll-free dial-in features with a  90-day license for businesses that are not already customers",
       "url": "https://blog.webex.com/video-conferencing/cisco-webex-supporting-customers-during-this-unprecedented-time/",
       "image": "/images/softwares/cisco-webex-logo.png"
     },
@@ -60,7 +60,7 @@
       "id": "zoom",
       "name": "Zoom",
       "description": "Video conferencing, online Meetings, screen share",
-      "eligibility": "DONATION: Extended its free plan in China to allow unlimited meeting times and breakout rooms, and removed restrictions on participant limits",
+      "eligibility": "🎁 Extended its free plan in China to allow unlimited meeting times and breakout rooms, and removed restrictions on participant limits",
       "url": "https://blog.zoom.us/wordpress/2020/02/26/zoom-commitment-user-support-business-continuity-during-coronavirus-outbreak/",
       "image": "/images/softwares/zoom-logo.png"
     },
@@ -68,7 +68,7 @@
       "id": "discord",
       "name": "Discord",
       "description": " Voice, text chat andlive streaming for your team",
-      "eligibility": "DONATION: Go Live streaming limit from 10 to 50 people for everyone for the next few months",
+      "eligibility": "🎁 Go Live streaming limit from 10 to 50 people for everyone for the next few months",
       "url": "https://support.discordapp.com/hc/en-us/articles/360030714312-Stream-your-game-with-Go-Live-",
       "image": "/images/softwares/discord-logo.png"
     },
@@ -76,7 +76,7 @@
       "id": "miro",
       "name": "Miro",
       "description": "Collaborative whiteboard platform for distributed teams",
-      "eligibility": "DONATION: Free up to 3 whiteboards for all users and free premium plan for public non-profit educational institutions including unlimited boards and unlimited collaborators",
+      "eligibility": "🎁 Free up to 3 whiteboards for all users and free premium plan for public non-profit educational institutions including unlimited boards and unlimited collaborators",
       "url": "https://help.miro.com/hc/en-us/articles/360017730473-Education-Plan",
       "image": "/images/softwares/miro-logo.png"
     },
@@ -84,7 +84,7 @@
       "id": "dropbox",
       "name": "Dropbox",
       "description": "Upload and transfer files to the cloud, and share them with anyone with any of your computers or mobile devices—from anywhere",
-      "eligibility": "DONATION: Free Dropbox Business subscriptions for a three-month period to nonprofits and NGOs that are focused on fighting COVID-19",
+      "eligibility": "🎁 Free Dropbox Business subscriptions for a three-month period to nonprofits and NGOs that are focused on fighting COVID-19",
       "url": "https://go.dropbox.com/en-us/covid19-donation-program",
       "image": "/images/softwares/dropbox-logo.png"
     },
@@ -92,7 +92,7 @@
       "id": "box",
       "name": "Box",
       "description": "A single place to manage, secure, share and govern all of the content for your internal and external collaboration and processes",
-      "eligibility": "DONATION: Box business edition free for 90 days here for any small and medium businesses",
+      "eligibility": "🎁 Box business edition free for 90 days here for any small and medium businesses",
       "url": "https://account.box.com/signup/business?tl=oWgBWV",
       "image": "/images/softwares/box-logo.png"
     }
