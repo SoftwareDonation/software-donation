@@ -3,20 +3,33 @@
     <AboutHeader />
     <base-container>
       <section class="about__text">{{ $t('about.text') }}</section>
+      <base-button
+        type="primary"
+        :href="contactFormLink"
+        class="about__contact"
+        >{{ $t('about.button') }}</base-button
+      >
     </base-container>
   </div>
 </template>
 
 <script>
-import { MAIN_TITLE } from '../config'
+import { MAIN_TITLE, CONTACT_FORM_LINK } from '../config'
 import AboutHeader from '../components/AboutHeader.vue'
 import BaseContainer from '../components/BaseContainer.vue'
+import BaseButton from '../components/BaseButton.vue'
 
 export default {
   title: 'About',
   components: {
     AboutHeader,
-    BaseContainer
+    BaseContainer,
+    BaseButton
+  },
+  data() {
+    return {
+      contactFormLink: CONTACT_FORM_LINK
+    }
   },
   head() {
     return {
@@ -33,8 +46,13 @@ export default {
   position: relative;
 
   &__text {
-    padding: $space-xxxl 0;
+    padding-top: $space-xxxl;
     font-size: $font-size-md;
+  }
+
+  &__contact {
+    margin-top: $space-md;
+    margin-bottom: $space-xxxl;
   }
 }
 </style>

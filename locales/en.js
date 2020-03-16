@@ -43,7 +43,8 @@ module.exports = {
   about: {
     title: 'Software Donation Initiative',
     meta_title: 'About',
-    text: `Software Donation is an open-source foundation that aims to create a platform where software companies can join and donate their tools to empower those in need. We are currently focused on COVID-19 and accept companies in remote working and distance learning industries. Our mission is to create awareness around intangible donations like tools and help companies with their software donation strategy. We're currently accepting companies to become our founding members. If you're interested, simply reach us out at info@softwaredonation.org.`
+    text: `Software Donation is an open-source foundation that aims to create a platform where software companies can join and donate their tools to empower those in need. We are currently focused on COVID-19 and accept companies in remote working and distance learning industries. Our mission is to create awareness around intangible donations like tools and help companies with their software donation strategy. We're currently accepting companies to become our founding members. If you're interested, contact-us:`,
+    button: 'Contact-us'
   },
   donation_banner: {
     title: 'Can your software make a change?',
