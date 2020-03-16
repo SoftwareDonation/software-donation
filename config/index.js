@@ -1,5 +1,5 @@
 export const DEFAULT_CAUSE = 'work-remotely'
-export const DONATE_LINK = 'https://www.sandoche.com'
+export const DONATE_LINK = 'https://letsdonatesoftware.typeform.com/to/w2aXXR'
 export const GITHUB_LINK = 'https://github.com/SoftwareDonation'
 export const MAIN_TITLE = 'Software Donation'
 export const MAIN_DESCRIPTION =
