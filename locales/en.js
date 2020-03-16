@@ -47,7 +47,8 @@ module.exports = {
   },
   donation_banner: {
     title: 'Can your software make a change?',
-    description: 'Join the movement and donate your software to support a cause',
+    description:
+      'Join the movement and donate your software to support a cause',
     button: 'Donate now'
   },
   newsletter: {
