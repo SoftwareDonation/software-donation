@@ -6,7 +6,7 @@
         <p class="the-footer__social">
           {{ $t('footer.follow') }} ‒
           <span v-for="(socialLink, index) in socialLinks" :key="index">
-            <a :href="socialLink.href" class="the-footer__link">
+            <a :href="socialLink.href" target="_blank" class="the-footer__link">
               {{ socialLink.title }}
             </a>
           </span>
