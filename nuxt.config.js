@@ -1,6 +1,6 @@
 import messages from './locales'
 import getCauses from './services/getCauses'
-import { MAIN_TITLE, MAIN_DESCRIPTION } from './config'
+import { MAIN_TITLE, MAIN_DESCRIPTION, SOCIAL_DESCRIPTION } from './config'
 
 export default {
   mode: 'universal',
@@ -19,6 +19,28 @@ export default {
         name: 'description',
         content: MAIN_DESCRIPTION
       },
+
+      { name: 'og:title', content: MAIN_TITLE },
+      { name: 'og:description', content: SOCIAL_DESCRIPTION },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://softwaredonation.org/' },
+      {
+        name: 'og:image',
+        content: 'https://softwaredonation.org/softwaredonation.png'
+      },
+
+      { name: 'twitter:card', content: 'summary' },
+      {
+        name: 'twitter:title',
+        content: MAIN_TITLE
+      },
+      { name: 'twitter:description', content: SOCIAL_DESCRIPTION },
+      {
+        name: 'twitter:image',
+        content: 'https://softwaredonation.org/softwaredonation.png'
+      },
+      { name: 'twitter:image:alt', content: MAIN_TITLE },
+
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'theme-color', content: '#3183c8' }
     ],
