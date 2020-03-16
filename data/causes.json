@@ -1,16 +1,12 @@
 {
   "causes": [
     {
-      "id": "corona",
-      "name": "Fight the corona virus"
+      "id": "work-remotely",
+      "name": "Work Remotely"
     },
     {
-      "id": "remote",
-      "name": "Work remotely"
-    },
-    {
-      "id": "test",
-      "name": "test"
+      "id": "study-remotely",
+      "name": "Study Remotely"
     }
   ]
 }

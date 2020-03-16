@@ -22,11 +22,22 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
-  min-height: 500px;
-  height: 50vh;
+  min-height: 650px;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('/images/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -5vw;
+  margin-bottom: -100px;
+
+  @media screen and (max-width: $screen-md) {
+    margin-bottom: 0;
+    height: auto;
+    min-height: 400px;
+  }
 
   &__title {
     font-size: $font-size-xxl;
@@ -35,6 +46,7 @@ export default {
     max-width: 800px;
 
     @media screen and (max-width: $screen-lg) {
+      padding-top: $space-md;
       font-size: $font-size-xl;
     }
   }

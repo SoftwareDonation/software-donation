@@ -25,21 +25,18 @@
         </div>
       </section>
     </main>
-    <DonationBanner />
   </div>
 </template>
 
 <script>
 import { DONATE_LINK, MAIN_TITLE } from '../config'
 import ProgramHeader from '../components/ProgramHeader.vue'
-import DonationBanner from '../components/DonationBanner.vue'
 import BaseButton from '../components/BaseButton.vue'
 
 export default {
   title: 'Program',
   components: {
     ProgramHeader,
-    DonationBanner,
     BaseButton
   },
   data() {
@@ -72,9 +69,12 @@ export default {
     grid-template-columns: 1fr $column-size $column-size 1fr;
     height: 70vh;
     min-height: 400px;
+    margin-bottom: -3px;
 
     @media screen and (max-width: $screen-lg) {
       grid-template-columns: 1fr;
+      height: auto;
+      min-height: 700px;
     }
 
     &--second {
@@ -87,11 +87,17 @@ export default {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: $color-grey-light;
+
+    @media screen and (max-width: $container-width) {
+      padding: $space-md;
+    }
 
     &--first {
       grid-column-start: 2;
       grid-column-end: 3;
       padding-left: 0;
+      text-align: right;
     }
 
     &--second {
@@ -103,7 +109,7 @@ export default {
     @media screen and (max-width: $screen-lg) {
       grid-column-start: 1;
       grid-column-end: 2;
-      padding: $container-padding;
+      padding: $space-md $container-padding;
     }
   }
 
@@ -113,16 +119,22 @@ export default {
     &--first {
       grid-column-start: 3;
       grid-column-end: 5;
-      background-image: url('/images/program/remote.jpg');
+      background-image: url('/images/program/student1.jpg');
       @media screen and (max-width: $screen-lg) {
         order: -1;
+        height: 400px;
+        background-position: right;
       }
     }
 
     &--second {
       grid-column-start: 1;
       grid-column-end: 3;
-      background-image: url('/images/program/covid.jpg');
+      background-image: url('/images/program/student2.jpg');
+
+      @media screen and (max-width: $screen-lg) {
+        height: 350px;
+      }
     }
 
     @media screen and (max-width: $screen-lg) {

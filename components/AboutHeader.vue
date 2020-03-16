@@ -21,10 +21,17 @@ export default {
 .home-header {
   background-color: #fff;
   text-align: center;
+  padding-top: $space-4xl;
   min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: $screen-sm) {
+    height: auto;
+    min-height: 100px;
+    padding-top: $space-md;
+  }
 
   &__title {
     font-size: $font-size-xxl;

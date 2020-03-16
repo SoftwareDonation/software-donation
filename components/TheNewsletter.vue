@@ -47,19 +47,24 @@
   padding-bottom: $space-xxxs;
 }
 
+#mc-embedded-subscribe-form {
+  width: 100% !important;
+}
+
 #mc_embed_signup form {
   padding: 0;
+  @media screen and (max-width: $screen-md) {
+    width: 100%;
+
+    input {
+      width: 100% !important;
+    }
+  }
 }
 
 @media (max-width: 1300px) {
   #mce-EMAIL {
     width: auto !important;
-  }
-}
-
-.mailchimp {
-  @media (max-width: 960px) {
-    display: none;
   }
 }
 

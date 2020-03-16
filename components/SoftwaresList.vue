@@ -20,6 +20,7 @@
     </section>
     <section class="softwares-list">
       <base-container>
+        <SoftwaresListEmpty v-if="categories.length === 0" />
         <div
           v-for="(category, indexCategory) in categories"
           :key="indexCategory"
@@ -47,6 +48,7 @@
 <script>
 import { DEFAULT_CAUSE } from '../config'
 import SoftwaresListItem from './SoftwaresListItem.vue'
+import SoftwaresListEmpty from './SoftwaresListEmpty.vue'
 import BaseButton from './BaseButton.vue'
 import BaseContainer from './BaseContainer.vue'
 
@@ -54,6 +56,7 @@ export default {
   name: 'SoftwaresList',
   components: {
     SoftwaresListItem,
+    SoftwaresListEmpty,
     BaseButton,
     BaseContainer
   },
@@ -105,7 +108,8 @@ export default {
   }
 
   &__title {
-    margin-bottom: $space-sm;
+    margin-bottom: $space-md;
+    font-size: $font-size-lg;
   }
 
   &__grid {

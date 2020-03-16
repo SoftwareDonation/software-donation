@@ -2,7 +2,7 @@
   <div>
     <HomeHeader />
     <SoftwaresList :causes="causes" :categories="categories" />
-    <DonationBanner />
+    <DonationBanner v-if="categories.length > 0" />
   </div>
 </template>
 
