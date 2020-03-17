@@ -8,7 +8,7 @@ module.exports = {
     hero: {
       headline: 'Transforming lives through access to powerful software',
       description:
-        'Software Donation is an open source initiative to transform and create impact with the power of software tools.'
+        'Software Donation is an initiative for making changes and creating impacts with the power of software tools'
     },
     causes: {
       call_to_action_sentence: 'Tools to help you during COVID-19'
