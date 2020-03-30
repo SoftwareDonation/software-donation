@@ -1,23 +1,25 @@
 <template>
-  <div class="softwares-categories-navigation">
-    <ul
-      v-scroll-spy-active
-      v-scroll-spy-link
-      class="softwares-categories-navigation__links"
-    >
-      <li
-        v-for="(category, index) in categories"
-        :key="index"
-        class="softwares-categories-navigation__link"
+  <div class="softwares-categories-navigation__container">
+    <div class="softwares-categories-navigation">
+      <ul
+        v-scroll-spy-active
+        v-scroll-spy-link
+        class="softwares-categories-navigation__links"
       >
-        <a
-          v-smooth-scroll="{ offset: -100 }"
-          :href="`#${category.name}`"
-          class="softwares-categories-navigation__link-a"
-          >{{ category.name }}</a
+        <li
+          v-for="(category, index) in categories"
+          :key="index"
+          class="softwares-categories-navigation__link"
         >
-      </li>
-    </ul>
+          <a
+            v-smooth-scroll="{ offset: -100 }"
+            :href="`#${category.name}`"
+            class="softwares-categories-navigation__link-a"
+            >{{ category.name }}</a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -43,16 +45,28 @@ export default {
 }
 
 .softwares-categories-navigation {
-  float: left;
-  position: sticky;
-  top: 80px;
-  left: 20px;
-  max-width: 300px;
-  margin-top: -8px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: $space-md;
+
+  @media screen and (max-width: $container-width + 300px) {
+    display: none;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr $container-width 1fr;
+    position: sticky;
+    top: 0;
+    font-size: $font-size-xs;
+    height: 0px;
+  }
 
   &__links {
     list-style: none;
     padding-left: 0;
+    display: inline-block;
+    padding-top: 80px;
   }
 
   &__link {
