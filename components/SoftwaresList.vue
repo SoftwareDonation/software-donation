@@ -26,7 +26,9 @@
           :key="indexCategory"
           class="softwares-list__category"
         >
-          <h3 class="softwares-list__title">{{ category.name }}</h3>
+          <h3 :id="category.name" class="softwares-list__title">
+            {{ category.name }}
+          </h3>
           <div class="softwares-list__grid">
             <SoftwaresListItem
               v-for="(software, indexSoftware) in category.softwares"
