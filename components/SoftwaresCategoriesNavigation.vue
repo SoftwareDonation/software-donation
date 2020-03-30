@@ -43,6 +43,13 @@ export default {
 }
 
 .softwares-categories-navigation {
+  float: left;
+  position: sticky;
+  top: 80px;
+  left: 20px;
+  max-width: 300px;
+  margin-top: -8px;
+
   &__links {
     list-style: none;
     padding-left: 0;
