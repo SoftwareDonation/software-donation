@@ -19,6 +19,7 @@
       </base-container>
     </section>
     <section class="softwares-list">
+      <SoftwaresCategoriesNavigation :categories="categories" />
       <base-container>
         <SoftwaresListEmpty v-if="categories.length === 0" />
         <div
@@ -51,6 +52,7 @@
 import { DEFAULT_CAUSE } from '../config'
 import SoftwaresListItem from './SoftwaresListItem.vue'
 import SoftwaresListEmpty from './SoftwaresListEmpty.vue'
+import SoftwaresCategoriesNavigation from './SoftwaresCategoriesNavigation.vue'
 import BaseButton from './BaseButton.vue'
 import BaseContainer from './BaseContainer.vue'
 
@@ -60,7 +62,8 @@ export default {
     SoftwaresListItem,
     SoftwaresListEmpty,
     BaseButton,
-    BaseContainer
+    BaseContainer,
+    SoftwaresCategoriesNavigation
   },
   props: {
     causes: {
