@@ -88,7 +88,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/vue2-smooth-scroll', ssr: false }],
+  plugins: [
+    { src: '~/plugins/vue2-smooth-scroll', ssr: false },
+    { src: '~/plugins/vue2-scrollspy', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

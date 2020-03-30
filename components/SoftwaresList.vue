@@ -20,7 +20,7 @@
     </section>
     <section class="softwares-list">
       <SoftwaresCategoriesNavigation :categories="categories" />
-      <base-container>
+      <base-container v-scroll-spy>
         <SoftwaresListEmpty v-if="categories.length === 0" />
         <div
           v-for="(category, indexCategory) in categories"

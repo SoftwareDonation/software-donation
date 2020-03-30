@@ -1,10 +1,21 @@
 <template>
-  <div>
-    <ul>
-      <li v-for="(category, index) in categories" :key="index">
-        <a v-smooth-scroll="{ offset: -100 }" :href="`#${category.name}`">{{
-          category.name
-        }}</a>
+  <div class="softwares-categories-navigation">
+    <ul
+      v-scroll-spy-active
+      v-scroll-spy-link
+      class="softwares-categories-navigation__links"
+    >
+      <li
+        v-for="(category, index) in categories"
+        :key="index"
+        class="softwares-categories-navigation__link"
+      >
+        <a
+          v-smooth-scroll="{ offset: -100 }"
+          :href="`#${category.name}`"
+          class="softwares-categories-navigation__link-a"
+          >{{ category.name }}</a
+        >
       </li>
     </ul>
   </div>
@@ -20,3 +31,28 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.active {
+  background-color: $color-primary;
+  border-radius: 999px;
+
+  a {
+    color: #fff !important;
+  }
+}
+
+.softwares-categories-navigation {
+  &__links {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  &__link {
+    padding: $space-xxxs $space-xs;
+  }
+
+  &__link-a {
+  }
+}
+</style>
