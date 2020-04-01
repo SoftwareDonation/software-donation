@@ -116,9 +116,17 @@
 .the-logo {
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: $screen-sm) {
+    justify-content: center;
+  }
 }
 
 svg {
   height: 50px;
+
+  @media screen and (max-width: $screen-sm) {
+    height: 40px;
+  }
 }
 </style>
