@@ -21,6 +21,18 @@
         },
         {
           "id": "discord"
+        },
+        {
+          "id": "livestorm"
+        },
+        {
+          "id": "bluejeans"
+        },
+        {
+          "id": "heysummit"
+        },
+        {
+          "id": "krisp"
         }
       ]
     },
@@ -32,6 +44,15 @@
         },
         {
           "id": "loom"
+        },
+        {
+          "id": "airtable"
+        },
+        {
+          "id": "zoho-remotely"
+        },
+        {
+          "id": "atlassian"
         }
       ]
     },
@@ -43,6 +64,12 @@
         },
         {
           "id": "tandem"
+        },
+        {
+          "id": "slack"
+        },
+        {
+          "id": "screen"
         }
       ]
     },
