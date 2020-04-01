@@ -95,6 +95,62 @@
       "eligibility": "🎁 Box business edition free for 90 days here for any small and medium businesses",
       "url": "https://account.box.com/signup/business?tl=oWgBWV",
       "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "A chat room for your whole company, designed to replace email as your primary method of communication and sharing",
+      "eligibility": "🎁 Free access to a Slack paid plan for three months for all nonprofits and other organizations carrying out critical relief efforts",
+      "url": "https://slack.com/covid-help/apply",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything",
+      "eligibility": "🎁 Pro plans available for free—with no time limit—to any non-political humanitarian groups working on COVID-19 relief efforts",
+      "url": "https://blog.airtable.com/airtables-support-for-covid-19-response-efforts/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "livestorm",
+      "name": "Livestorm",
+      "description": "Browser based online web conferencing software to power remote live meetings, product demos, sales webinars, online lessons, onboarding sessions, more",
+      "eligibility": "🎁 Free and unlimited use of Remote video meeting solution for the duration of the pandemic",
+      "url": "https://livestorm.co/blog/livestorm-and-covid-19/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "bluejeans",
+      "name": "BlueJeans",
+      "description": "Cloud-based video conferencing service that connects participants across a wide range of devices and conferencing platforms",
+      "eligibility": "🎁 Free 90-Day Service for First Responders and NGOs Helping With the Novel Coronavirus Response",
+      "url": "https://www.bluejeans.com/first-responder-free-ninety-days",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "zoho-remotely",
+      "name": "Zoho Remotely",
+      "description": "Zoho Remotely is a a complete suite of web and mobile apps that will help you communicate, collaborate and be productive remotely",
+      "eligibility": "🎁 Free till July 1, 2020 by which time we hope the Coronavirus crisis tides over",
+      "url": "https://www.zoho.com/remotely/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "heysummit",
+      "name": "HeySummit",
+      "description": "Organize, promote, and analyse you online summits",
+      "eligibility": "🎁 One free virtual summit for coronavirus-affected events that are scheduled in the next three months",
+      "url": "https://heysummit.com/blog/free-virtual-summit-corona-affected-events/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "description": "Noise cancelling app that removes all background noises for incoming and outgoing calls",
+      "eligibility": "🎁 Unlimited Krisp for all students, teachers, hospital and government workers, worldwide + 120min/week of free noise for all users",
+      "url": "https://krisp.ai/blog/covid19-response/",
+      "image": "/images/softwares/box-logo.png"
     }
   ]
 }
