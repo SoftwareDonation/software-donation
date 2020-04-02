@@ -1,4 +1,21 @@
 {
   "title": "health-and-wellness",
-  "categories": []
+  "categories": [
+    {
+      "name": "Meditation",
+      "softwares": [
+        {
+          "id": "headspace"
+        }
+      ]
+    },
+    {
+      "name": "Better Sleep",
+      "softwares": [
+        {
+          "id": "rise"
+        }
+      ]
+    }
+  ]
 }
