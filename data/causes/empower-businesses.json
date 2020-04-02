@@ -1,4 +1,43 @@
 {
   "title": "empower-businesses",
-  "categories": []
+  "categories": [
+    {
+      "name": "Design and Build Website",
+      "softwares": [
+        {
+          "id": "webflow"
+        }
+      ]
+    },
+    {
+      "name": "Communication Tools",
+      "softwares": [
+        {
+          "id": "openphone"
+        },
+        {
+          "id": "messagebird"
+        },
+        {
+          "id": "intercom"
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "softwares": [
+        {
+          "id": "pr-co"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "softwares": [
+        {
+          "id": "cloudflare"
+        }
+      ]
+    }
+  ]
 }
