@@ -207,6 +207,30 @@
       "eligibility": "🎁 Free for NGOs (and business) that have a role in providing information, reassurance, and guidance during crisis, plus collaboration features for free to all customers",
       "url": "https://news.pr.co/187218-pr-co-fully-operational-and-offering-some-services-for-free-during-the-covid-19-crisis",
       "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "description": "Customer messaging apps for sales, marketing, and support, connected on one platform",
+      "eligibility": "🎁 Available free of charge to any company or institution fighting COVID-19 and its impact on society, or working to help those affected",
+      "url": "https://www.intercom.com/partner/covid-19-information",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "description": "Content-delivery-network services, DDoS mitigation, Internet security for your company",
+      "eligibility": "🎁 Cloudflare for Teams available for organizations of any size at no cost through September 1, including an optional 30-minute onboarding session with a technical expert",
+      "url": "https://teams.cloudflare.com/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "amazon-chime",
+      "name": "Amazon Chime",
+      "description": "Online meetings, voice and video chat, along with in-room conferencing services, working across any client device using native applications or browser extension",
+      "eligibility": "🎁 Free use of all Amazon Chime Pro features for online meetings and video conferencing from March 4, 2020 to June 30, 2020 for all customers that start using Amazon Chime for the first time",
+      "url": "https://aws.amazon.com/chime/pricing/",
+      "image": "/images/softwares/box-logo.png"
     }
   ]
 }
