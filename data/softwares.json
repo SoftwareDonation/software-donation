@@ -231,6 +231,30 @@
       "eligibility": "🎁 Free use of all Amazon Chime Pro features for online meetings and video conferencing from March 4, 2020 to June 30, 2020 for all customers that start using Amazon Chime for the first time",
       "url": "https://aws.amazon.com/chime/pricing/",
       "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "rise-science",
+      "name": "Rise",
+      "description": "Sleep app that offers free sleep tracking and sleep-enhancing recommendations based on your circadian rhythm",
+      "eligibility": "🎁 Free use for everyone throughout the COVID-19 crisis",
+      "url": "https://www.risescience.com/better-sleep-better-health",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "packback",
+      "name": "Packback",
+      "description": "AI-supported online discussion platform that offers asynchronous discussion experience, automated discussion moderation and real-time feedback on students’ posts",
+      "eligibility": "🎁 Zero cost licenses through the end of the Spring semester or academic quarter for any higher education courses moving online mid-term due to COVID-19 prevention",
+      "url": "https://www.packback.co/news/helping-classrooms-stay-connected-and-engaged-online/",
+      "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "sanako",
+      "name": "Sanako",
+      "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
+      "eligibility": "🎁 Remote teaching tool available for free for 5000 schools until end of semester",
+      "url": "https://etcjournal.com/2020/03/17/sanako-remote-language-teaching-tool-free-until-end-of-semester",
+      "image": "/images/softwares/box-logo.png"
     }
   ]
 }
