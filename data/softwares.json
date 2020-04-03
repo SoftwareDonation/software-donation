@@ -102,7 +102,7 @@
       "description": "A chat room for your whole company, designed to replace email as your primary method of communication and sharing",
       "eligibility": "🎁 Free access to a Slack paid plan for three months for all nonprofits and other organizations carrying out critical relief efforts",
       "url": "https://slack.com/covid-help/apply",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/slack-logo.png"
     },
     {
       "id": "airtable",
@@ -110,7 +110,7 @@
       "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything",
       "eligibility": "🎁 Pro plans available for free—with no time limit—to any non-political humanitarian groups working on COVID-19 relief efforts",
       "url": "https://blog.airtable.com/airtables-support-for-covid-19-response-efforts/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/airtable-logo.png"
     },
     {
       "id": "livestorm",
@@ -118,7 +118,7 @@
       "description": "Browser based online web conferencing software to power remote live meetings, product demos, sales webinars, online lessons, onboarding sessions, more",
       "eligibility": "🎁 Free and unlimited use of Remote video meeting solution for the duration of the pandemic",
       "url": "https://livestorm.co/blog/livestorm-and-covid-19/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/livestorm-logo.png"
     },
     {
       "id": "bluejeans",
@@ -126,7 +126,7 @@
       "description": "Cloud-based video conferencing service that connects participants across a wide range of devices and conferencing platforms",
       "eligibility": "🎁 Free 90-Day Service for First Responders and NGOs Helping With the Novel Coronavirus Response",
       "url": "https://www.bluejeans.com/first-responder-free-ninety-days",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/bluejeans-logo.png"
     },
     {
       "id": "zoho-remotely",
@@ -134,7 +134,7 @@
       "description": "Zoho Remotely is a a complete suite of web and mobile apps that will help you communicate, collaborate and be productive remotely",
       "eligibility": "🎁 Free till July 1, 2020 by which time we hope the Coronavirus crisis tides over",
       "url": "https://www.zoho.com/remotely/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/zoho-remotely-logo.png"
     },
     {
       "id": "heysummit",
@@ -142,7 +142,7 @@
       "description": "Organize, promote, and analyse you online summits",
       "eligibility": "🎁 One free virtual summit for coronavirus-affected events that are scheduled in the next three months",
       "url": "https://heysummit.com/blog/free-virtual-summit-corona-affected-events/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/heysummit-logo.png"
     },
     {
       "id": "krisp",
@@ -150,7 +150,7 @@
       "description": "Noise cancelling app that removes all background noises for incoming and outgoing calls",
       "eligibility": "🎁 Unlimited Krisp for all students, teachers, hospital and government workers, worldwide + 120min/week of free noise for all users",
       "url": "https://krisp.ai/blog/covid19-response/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/krisp-logo.png"
     },
     {
       "id": "headspace",
@@ -158,7 +158,7 @@
       "description": "Your guide to everyday mindfulness in just a few minutes a day for less stress and better sleep",
       "eligibility": "🎁 Free access to Headspace Plus for all K-12 teachers, school administrators, and supporting staff in the US, UK, Canada, and Australia, US healthcare professionals working in public health settings",
       "url": "https://www.headspace.com/covid-19",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/headspace-logo.png"
     },
     {
       "id": "webflow",
@@ -166,7 +166,7 @@
       "description": "Webflow gives designers and developers the power to design, build, and launch responsive websites visually in the browser",
       "eligibility": "🎁 Available free of charge to any organization creating informational websites to slow the spread of COVID-19",
       "url": "https://twitter.com/webflow/status/1239587770139639808",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/webflow-logo.png"
     },
     {
       "id": "atlassian",
@@ -174,7 +174,7 @@
       "description": "Software development, collaboration and issue tracking tools for teams",
       "eligibility": "🎁 Core cloud software products available for free for everyone",
       "url": "https://www.atlassian.com/blog/teamwork/atlassians-commitment-to-our-customers-during-the-covid-19-pandemic",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/atlassian-logo.png"
     },
     {
       "id": "screen",
@@ -182,7 +182,7 @@
       "description": "Fast screen sharing with multiplayer control, drawing & video, also great for pair programming",
       "eligibility": "🎁 Free for everyone during the COVID-19 outbreak",
       "url": "https://screen.so/#/pricing",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/screen-logo.png"
     },
     {
       "id": "openphone",
@@ -190,7 +190,7 @@
       "description": "Simple and delightful business phone for startups, small businesses and individuals",
       "eligibility": "🎁 3 months free when you port a landline or desk phone",
       "url": "https://www.openphone.co/blog/port-landline-to-openphone/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/openphone-logo.png"
     },
     {
       "id": "messagebird",
@@ -198,7 +198,7 @@
       "description": "Cloud communications platform offering a suite of APIs, SDKs, and tools for programmatic communication on SMS, Voice, Whatsapp, Messenger, WeChat, Line, and more",
       "eligibility": "🎁 Free and unlimited public health and safety communication for the hospitals, governments, and any essential providers that need to keep people up-to-date and answer critical questions",
       "url": "https://www.openphone.co/blog/port-landline-to-openphone/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/messagebird-logo.png"
     },
     {
       "id": "pr-co",
@@ -206,7 +206,7 @@
       "description": "Public relations and communications plarform, offering intuitive newsrooms, media centers and press pages",
       "eligibility": "🎁 Free for NGOs (and business) that have a role in providing information, reassurance, and guidance during crisis, plus collaboration features for free to all customers",
       "url": "https://news.pr.co/187218-pr-co-fully-operational-and-offering-some-services-for-free-during-the-covid-19-crisis",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/pr-co-logo.png"
     },
     {
       "id": "intercom",
@@ -214,7 +214,7 @@
       "description": "Customer messaging apps for sales, marketing, and support, connected on one platform",
       "eligibility": "🎁 Available free of charge to any company or institution fighting COVID-19 and its impact on society, or working to help those affected",
       "url": "https://www.intercom.com/partner/covid-19-information",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/intercom-logo.png"
     },
     {
       "id": "cloudflare",
@@ -222,7 +222,7 @@
       "description": "Content-delivery-network services, DDoS mitigation, Internet security for your company",
       "eligibility": "🎁 Cloudflare for Teams available for organizations of any size at no cost through September 1, including an optional 30-minute onboarding session with a technical expert",
       "url": "https://teams.cloudflare.com/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/cloudflare-logo.png"
     },
     {
       "id": "amazon-chime",
@@ -230,7 +230,7 @@
       "description": "Online meetings, voice and video chat, along with in-room conferencing services, working across any client device using native applications or browser extension",
       "eligibility": "🎁 Free use of all Amazon Chime Pro features for online meetings and video conferencing from March 4, 2020 to June 30, 2020 for all customers that start using Amazon Chime for the first time",
       "url": "https://aws.amazon.com/chime/pricing/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/amazon-chime-logo.png"
     },
     {
       "id": "rise-science",
@@ -238,7 +238,7 @@
       "description": "Sleep app that offers free sleep tracking and sleep-enhancing recommendations based on your circadian rhythm",
       "eligibility": "🎁 Free use for everyone throughout the COVID-19 crisis",
       "url": "https://www.risescience.com/better-sleep-better-health",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/rise-science-logo.png"
     },
     {
       "id": "packback",
@@ -246,7 +246,7 @@
       "description": "AI-supported online discussion platform that offers asynchronous discussion experience, automated discussion moderation and real-time feedback on students’ posts",
       "eligibility": "🎁 Zero cost licenses through the end of the Spring semester or academic quarter for any higher education courses moving online mid-term due to COVID-19 prevention",
       "url": "https://www.packback.co/news/helping-classrooms-stay-connected-and-engaged-online/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/packback-logo.png"
     },
     {
       "id": "sanako",
@@ -254,7 +254,7 @@
       "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
       "eligibility": "🎁 Remote teaching tool available for free for 5000 schools until end of semester",
       "url": "https://etcjournal.com/2020/03/17/sanako-remote-language-teaching-tool-free-until-end-of-semester",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/sanako-logo.png"
     },
     {
       "id": "codeacademy",
@@ -262,7 +262,7 @@
       "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
       "eligibility": "🎁 Remote teaching tool available for free for 5000 schools until end of semester",
       "url": "https://etcjournal.com/2020/03/17/sanako-remote-language-teaching-tool-free-until-end-of-semester",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/codeacademy-logo.png"
     }
   ]
 }
