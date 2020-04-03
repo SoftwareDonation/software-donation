@@ -58,7 +58,7 @@ export default {
     grid-template-columns: 1fr $container-width 1fr;
     position: sticky;
     top: 0;
-    font-size: $font-size-xs;
+    font-size: $font-size-xxs;
     height: 0px;
   }
 
