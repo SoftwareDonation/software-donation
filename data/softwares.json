@@ -260,9 +260,41 @@
       "id": "codeacademy",
       "name": "Codeacademy",
       "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
-      "eligibility": "🎁 Remote teaching tool available for free for 5000 schools until end of semester",
-      "url": "https://etcjournal.com/2020/03/17/sanako-remote-language-teaching-tool-free-until-end-of-semester",
+      "eligibility": "🎁 10,000 scholarships to Codecademy Pro for free to high school and college students across the world for the rest of the school year",
+      "url": "https://pro.codecademy.com/learn-from-home/",
       "image": "/images/softwares/codeacademy-logo.png"
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
+      "eligibility": "🎁 3 months free of Typeform for anyone working on COVID-19 related projects that are strictly not-for-profit",
+      "url": "https://try.typeform.com/covid-19/",
+      "image": "/images/softwares/codeacademy-logo.png"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
+      "eligibility": "🎁 More than 100 courses for free for everyone",
+      "url": "https://www.udemy.com/courses/free/?sort=popularity&subcategory=Creativity",
+      "image": "/images/softwares/codeacademy-logo.png"
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "description": "Online education platform that offers a variety of video training courses for software developers, IT administrators, and creative professionals",
+      "eligibility": "🎁 Pluralsight's entire library of 7,000+ online tech courses available for free for everyone during April",
+      "url": "https://www.udemy.com/courses/free/?sort=popularity&subcategory=Creativity",
+      "image": "/images/softwares/codeacademy-logo.png"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe Creative Cloud",
+      "description": "Collection of 20+ desktop and mobile apps and services for photography, design, video, web, UX and more",
+      "eligibility": "🎁 Available at no cost until May 31, 2020 for schools and colleges who currently have only lab access for students",
+      "url": "https://theblog.adobe.com/adobe-enables-distance-learning-globally-schools-impacted-covid-19/",
+      "image": "/images/softwares/box-logo.png"
     }
   ]
 }
