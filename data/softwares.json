@@ -270,7 +270,7 @@
       "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
       "eligibility": "🎁 3 months free of Typeform for anyone working on COVID-19 related projects that are strictly not-for-profit",
       "url": "https://try.typeform.com/covid-19/",
-      "image": "/images/softwares/codeacademy-logo.png"
+      "image": "/images/softwares/typeform-logo.png"
     },
     {
       "id": "udemy",
@@ -278,7 +278,7 @@
       "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
       "eligibility": "🎁 More than 100 courses for free for everyone",
       "url": "https://www.udemy.com/courses/free/?sort=popularity&subcategory=Creativity",
-      "image": "/images/softwares/codeacademy-logo.png"
+      "image": "/images/softwares/udemy-logo.png"
     },
     {
       "id": "pluralsight",
@@ -286,7 +286,7 @@
       "description": "Online education platform that offers a variety of video training courses for software developers, IT administrators, and creative professionals",
       "eligibility": "🎁 Pluralsight's entire library of 7,000+ online tech courses available for free for everyone during April",
       "url": "https://www.udemy.com/courses/free/?sort=popularity&subcategory=Creativity",
-      "image": "/images/softwares/codeacademy-logo.png"
+      "image": "/images/softwares/pluralsight-logo.png"
     },
     {
       "id": "adobe",
@@ -294,7 +294,7 @@
       "description": "Collection of 20+ desktop and mobile apps and services for photography, design, video, web, UX and more",
       "eligibility": "🎁 Available at no cost until May 31, 2020 for schools and colleges who currently have only lab access for students",
       "url": "https://theblog.adobe.com/adobe-enables-distance-learning-globally-schools-impacted-covid-19/",
-      "image": "/images/softwares/box-logo.png"
+      "image": "/images/softwares/adobe-logo.png"
     }
   ]
 }
