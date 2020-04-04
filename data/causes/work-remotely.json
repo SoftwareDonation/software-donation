@@ -53,6 +53,9 @@
         },
         {
           "id": "atlassian"
+        },
+        {
+          "id": "hiver"
         }
       ]
     },
@@ -81,6 +84,14 @@
         },
         {
           "id": "box"
+        }
+      ]
+    },
+    {
+      "name": "Remote Operation",
+      "softwares": [
+        {
+          "id": "manageengine"
         }
       ]
     }
