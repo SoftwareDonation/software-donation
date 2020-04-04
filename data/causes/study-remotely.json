@@ -6,6 +6,12 @@
       "softwares": [
         {
           "id": "codeacademy"
+        },
+        {
+          "id": "udemy"
+        },
+        {
+          "id": "pluralsight"
         }
       ]
     },
