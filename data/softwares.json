@@ -295,6 +295,38 @@
       "eligibility": "🎁 Available at no cost until May 31, 2020 for schools and colleges who currently have only lab access for students",
       "url": "https://theblog.adobe.com/adobe-enables-distance-learning-globally-schools-impacted-covid-19/",
       "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "aws-ddi",
+      "name": "AWS Diagnostic Development Initiative (DDI)",
+      "description": " An initiative that provides support for innovation in rapid and accurate patient testing for 2019 novel coronavirus (COVID-19), and other diagnostic solutions to mitigate future outbreaks",
+      "eligibility": "🎁 Offering technical support and providing AWS promotional credits to support the use of AWS services to advance diagnostic research for selected institutions and companies",
+      "url": "https://aws.amazon.com/government-education/nonprofits/disaster-response/diagnostic-dev-initiative/",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "manageengine",
+      "name": "ManageEngine Secure Remote Access Toolkit",
+      "description": " ManageEngine's Secure Remote Access Toolkit (Access Manager Plus and Remote Access Plus allow) seamless yet secure connections to desktops, servers, databases, and network devices from employees' homes",
+      "eligibility": "🎁 Free license for any organization that is working remotely due to COVID-19",
+      "url": "https://www.manageengine.com/secure-remote-access-software/",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "hiver",
+      "name": "Hiver",
+      "description": "Fast email collaboration using shared inboxes such as support@ or invoices@ with ease right inside Gmail",
+      "eligibility": "🎁 Free till June 30, 2020 for small businesses with less than 50 employees that are helping contain the spread of COVID-19 or providing relief to those impacted",
+      "url": "https://hiverhq.com/covid-19",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "liveagent",
+      "name": "LiveAgent",
+      "description": "Live chat, call center, and ticketing software that helps organizations respond to customer queries quickly and answer all calls from the safety of their home",
+      "eligibility": "🎁 Free for public institutions and hospitals",
+      "url": "https://www.facebook.com/LiveAgent/posts/3117668481584679",
+      "image": "/images/softwares/adobe-logo.png"
     }
   ]
 }
