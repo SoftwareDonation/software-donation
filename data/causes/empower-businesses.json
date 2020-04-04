@@ -2,10 +2,16 @@
   "title": "empower-businesses",
   "categories": [
     {
-      "name": "Design and Build Website",
+      "name": "Design and Build Tools",
       "softwares": [
         {
           "id": "webflow"
+        },
+        {
+          "id": "adobe"
+        },
+        {
+          "id": "designmodo"
         }
       ]
     },
@@ -20,6 +26,9 @@
         },
         {
           "id": "intercom"
+        },
+        {
+          "id": "liveagent"
         }
       ]
     },
@@ -28,6 +37,9 @@
       "softwares": [
         {
           "id": "pr-co"
+        },
+        {
+          "id": "alugha"
         }
       ]
     },
@@ -36,6 +48,22 @@
       "softwares": [
         {
           "id": "cloudflare"
+        }
+      ]
+    },
+    {
+      "name": "Data Collection",
+      "softwares": [
+        {
+          "id": "typeform"
+        }
+      ]
+    },
+    {
+      "name": "Automation",
+      "softwares": [
+        {
+          "id": "zapier"
         }
       ]
     }
