@@ -327,6 +327,30 @@
       "eligibility": "🎁 Free for public institutions and hospitals",
       "url": "https://www.facebook.com/LiveAgent/posts/3117668481584679",
       "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "designmodo",
+      "name": "Designmodo",
+      "description": "Timesaving digital products and tools for designers and developers including website and email builders",
+      "eligibility": "🎁 Free one month subscriptions for nonprofits, NGOs and businesses affected by COVID-19",
+      "url": "https://designmodo.com/freemonth/",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "alugha",
+      "name": "Alugha",
+      "description": "Universal toolkit to create, publish and host multilingual videos efficiently at scale",
+      "eligibility": "🎁 Free unlimited small business account till 25th of May",
+      "url": "https://alugha.com/plans/7477a4cb-4d22-470e-ba1c-646ac9225787",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "description": "Zapier lets you connect the apps you use to create workflows and complete routine tasks automatically",
+      "eligibility": "🎁 Free Starter plans (1,500 tasks/mo) through the end of the year, for groups working on the front lines of tackling COVID-19 relief efforts",
+      "url": "https://zapier.com/blog/zapier-covid-19/",
+      "image": "/images/softwares/adobe-logo.png"
     }
   ]
 }
