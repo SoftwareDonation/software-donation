@@ -351,6 +351,22 @@
       "eligibility": "🎁 Free Starter plans (1,500 tasks/mo) through the end of the year, for groups working on the front lines of tackling COVID-19 relief efforts",
       "url": "https://zapier.com/blog/zapier-covid-19/",
       "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "datarobot",
+      "name": "DataRobot",
+      "description": "With DataRobot Automated Machine Learning, you can automate every step needed to build, deploy, and maintain powerful AI, leading to powerful predictions and with DataRobot Paxata, researchers can pull in data from cloud and local desktop files and prepare that data in any way to make it ready for machine learning",
+      "eligibility": "🎁 Free access to DataRobot’s automated machine learning and Paxata data preparation solutions to those interested in using it to help with the COVID-19 virus response effort",
+      "url": "https://www.datarobot.com/lp/covid-19-response-effort/",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "nvidia-parabricks",
+      "name": "NVIDIA Parabricks",
+      "description": "Parabricks is a software suite for performing secondary analysis of next generation sequencing (NGS) DNA data",
+      "eligibility": "🎁 Free 90-day license to Parabricks to any researcher in the worldwide effort to fight the novel coronavirus",
+      "url": "https://www.developer.nvidia.com/nvidia-parabricks",
+      "image": "/images/softwares/adobe-logo.png"
     }
   ]
 }
