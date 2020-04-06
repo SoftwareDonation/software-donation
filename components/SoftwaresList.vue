@@ -19,14 +19,17 @@
       </base-container>
     </section>
     <section class="softwares-list">
-      <base-container>
+      <SoftwaresCategoriesNavigation :categories="categories" />
+      <base-container v-scroll-spy>
         <SoftwaresListEmpty v-if="categories.length === 0" />
         <div
           v-for="(category, indexCategory) in categories"
           :key="indexCategory"
           class="softwares-list__category"
         >
-          <h3 class="softwares-list__title">{{ category.name }}</h3>
+          <h3 :id="category.name" class="softwares-list__title">
+            {{ category.name }}
+          </h3>
           <div class="softwares-list__grid">
             <SoftwaresListItem
               v-for="(software, indexSoftware) in category.softwares"
@@ -49,6 +52,7 @@
 import { DEFAULT_CAUSE } from '../config'
 import SoftwaresListItem from './SoftwaresListItem.vue'
 import SoftwaresListEmpty from './SoftwaresListEmpty.vue'
+import SoftwaresCategoriesNavigation from './SoftwaresCategoriesNavigation.vue'
 import BaseButton from './BaseButton.vue'
 import BaseContainer from './BaseContainer.vue'
 
@@ -58,7 +62,8 @@ export default {
     SoftwaresListItem,
     SoftwaresListEmpty,
     BaseButton,
-    BaseContainer
+    BaseContainer,
+    SoftwaresCategoriesNavigation
   },
   props: {
     causes: {

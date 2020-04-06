@@ -74,6 +74,10 @@ export default {
 
   &__logo {
     width: 200px;
+
+    @media screen and (max-width: $screen-md) {
+      display: none;
+    }
   }
 
   &__link {

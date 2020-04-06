@@ -46,7 +46,6 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       {
         rel: 'icon',
         type: 'apple-touch-icon',
@@ -88,7 +87,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/vue2-smooth-scroll', ssr: false },
+    { src: '~/plugins/vue2-scrollspy', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

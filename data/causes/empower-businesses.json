@@ -1,0 +1,71 @@
+{
+  "title": "empower-businesses",
+  "categories": [
+    {
+      "name": "Design and Build Tools",
+      "softwares": [
+        {
+          "id": "webflow"
+        },
+        {
+          "id": "adobe"
+        },
+        {
+          "id": "designmodo"
+        }
+      ]
+    },
+    {
+      "name": "Communication Tools",
+      "softwares": [
+        {
+          "id": "openphone"
+        },
+        {
+          "id": "messagebird"
+        },
+        {
+          "id": "intercom"
+        },
+        {
+          "id": "liveagent"
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "softwares": [
+        {
+          "id": "pr-co"
+        },
+        {
+          "id": "alugha"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "softwares": [
+        {
+          "id": "cloudflare"
+        }
+      ]
+    },
+    {
+      "name": "Data Collection",
+      "softwares": [
+        {
+          "id": "typeform"
+        }
+      ]
+    },
+    {
+      "name": "Automation",
+      "softwares": [
+        {
+          "id": "zapier"
+        }
+      ]
+    }
+  ]
+}

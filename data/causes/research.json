@@ -1,0 +1,24 @@
+{
+  "title": "research",
+  "categories": [
+    {
+      "name": "Cloud Computing Services",
+      "softwares": [
+        {
+          "id": "aws-ddi"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning and Data Analysis Tools",
+      "softwares": [
+        {
+          "id": "datarobot"
+        },
+        {
+          "id": "nvidia-parabricks"
+        }
+      ]
+    }
+  ]
+}

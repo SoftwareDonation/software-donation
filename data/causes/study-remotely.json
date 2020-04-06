@@ -1,4 +1,35 @@
 {
   "title": "study-remotely",
-  "categories": []
+  "categories": [
+    {
+      "name": "Online Courses",
+      "softwares": [
+        {
+          "id": "codeacademy"
+        },
+        {
+          "id": "udemy"
+        },
+        {
+          "id": "pluralsight"
+        }
+      ]
+    },
+    {
+      "name": "Digital Classroom",
+      "softwares": [
+        {
+          "id": "sanako"
+        }
+      ]
+    },
+    {
+      "name": "Discussion Platform",
+      "softwares": [
+        {
+          "id": "packback"
+        }
+      ]
+    }
+  ]
 }

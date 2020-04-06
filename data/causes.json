@@ -7,6 +7,18 @@
     {
       "id": "study-remotely",
       "name": "Study Remotely"
+    },
+    {
+      "id": "health-and-wellness",
+      "name": "Health and Wellness"
+    },
+    {
+      "id": "empower-businesses",
+      "name": "Empower Businesses"
+    },
+    {
+      "id": "research",
+      "name": "Research"
     }
   ]
 }

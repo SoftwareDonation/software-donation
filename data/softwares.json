@@ -95,6 +95,278 @@
       "eligibility": "🎁 Box business edition free for 90 days here for any small and medium businesses",
       "url": "https://account.box.com/signup/business?tl=oWgBWV",
       "image": "/images/softwares/box-logo.png"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "description": "A chat room for your whole company, designed to replace email as your primary method of communication and sharing",
+      "eligibility": "🎁 Free access to a Slack paid plan for three months for all nonprofits and other organizations carrying out critical relief efforts",
+      "url": "https://slack.com/covid-help/apply",
+      "image": "/images/softwares/slack-logo.png"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything",
+      "eligibility": "🎁 Pro plans available for free—with no time limit—to any non-political humanitarian groups working on COVID-19 relief efforts",
+      "url": "https://blog.airtable.com/airtables-support-for-covid-19-response-efforts/",
+      "image": "/images/softwares/airtable-logo.png"
+    },
+    {
+      "id": "livestorm",
+      "name": "Livestorm",
+      "description": "Browser based online web conferencing software to power remote live meetings, product demos, sales webinars, online lessons, onboarding sessions, more",
+      "eligibility": "🎁 Free and unlimited use of Remote video meeting solution for the duration of the pandemic",
+      "url": "https://livestorm.co/blog/livestorm-and-covid-19/",
+      "image": "/images/softwares/livestorm-logo.png"
+    },
+    {
+      "id": "bluejeans",
+      "name": "BlueJeans",
+      "description": "Cloud-based video conferencing service that connects participants across a wide range of devices and conferencing platforms",
+      "eligibility": "🎁 Free 90-Day Service for First Responders and NGOs Helping With the Novel Coronavirus Response",
+      "url": "https://www.bluejeans.com/first-responder-free-ninety-days",
+      "image": "/images/softwares/bluejeans-logo.png"
+    },
+    {
+      "id": "zoho-remotely",
+      "name": "Zoho Remotely",
+      "description": "Zoho Remotely is a a complete suite of web and mobile apps that will help you communicate, collaborate and be productive remotely",
+      "eligibility": "🎁 Free till July 1, 2020 by which time we hope the Coronavirus crisis tides over",
+      "url": "https://www.zoho.com/remotely/",
+      "image": "/images/softwares/zoho-remotely-logo.png"
+    },
+    {
+      "id": "heysummit",
+      "name": "HeySummit",
+      "description": "Organize, promote, and analyse you online summits",
+      "eligibility": "🎁 One free virtual summit for coronavirus-affected events that are scheduled in the next three months",
+      "url": "https://heysummit.com/blog/free-virtual-summit-corona-affected-events/",
+      "image": "/images/softwares/heysummit-logo.png"
+    },
+    {
+      "id": "krisp",
+      "name": "Krisp",
+      "description": "Noise cancelling app that removes all background noises for incoming and outgoing calls",
+      "eligibility": "🎁 Unlimited Krisp for all students, teachers, hospital and government workers, worldwide + 120min/week of free noise for all users",
+      "url": "https://krisp.ai/blog/covid19-response/",
+      "image": "/images/softwares/krisp-logo.png"
+    },
+    {
+      "id": "headspace",
+      "name": "Headspace",
+      "description": "Your guide to everyday mindfulness in just a few minutes a day for less stress and better sleep",
+      "eligibility": "🎁 Free access to Headspace Plus for all K-12 teachers, school administrators, and supporting staff in the US, UK, Canada, and Australia, US healthcare professionals working in public health settings",
+      "url": "https://www.headspace.com/covid-19",
+      "image": "/images/softwares/headspace-logo.png"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "description": "Webflow gives designers and developers the power to design, build, and launch responsive websites visually in the browser",
+      "eligibility": "🎁 Available free of charge to any organization creating informational websites to slow the spread of COVID-19",
+      "url": "https://twitter.com/webflow/status/1239587770139639808",
+      "image": "/images/softwares/webflow-logo.png"
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian",
+      "description": "Software development, collaboration and issue tracking tools for teams",
+      "eligibility": "🎁 Core cloud software products available for free for everyone",
+      "url": "https://www.atlassian.com/blog/teamwork/atlassians-commitment-to-our-customers-during-the-covid-19-pandemic",
+      "image": "/images/softwares/atlassian-logo.png"
+    },
+    {
+      "id": "screen",
+      "name": "Screen",
+      "description": "Fast screen sharing with multiplayer control, drawing & video, also great for pair programming",
+      "eligibility": "🎁 Free for everyone during the COVID-19 outbreak",
+      "url": "https://screen.so/#/pricing",
+      "image": "/images/softwares/screen-logo.png"
+    },
+    {
+      "id": "openphone",
+      "name": "OpenPhone",
+      "description": "Simple and delightful business phone for startups, small businesses and individuals",
+      "eligibility": "🎁 3 months free when you port a landline or desk phone",
+      "url": "https://www.openphone.co/blog/port-landline-to-openphone/",
+      "image": "/images/softwares/openphone-logo.png"
+    },
+    {
+      "id": "messagebird",
+      "name": "MessageBird",
+      "description": "Cloud communications platform offering a suite of APIs, SDKs, and tools for programmatic communication on SMS, Voice, Whatsapp, Messenger, WeChat, Line, and more",
+      "eligibility": "🎁 Free and unlimited public health and safety communication for the hospitals, governments, and any essential providers that need to keep people up-to-date and answer critical questions",
+      "url": "https://www.messagebird.com/inbox-for-good",
+      "image": "/images/softwares/message-bird-logo.png"
+    },
+    {
+      "id": "pr-co",
+      "name": "pr.co",
+      "description": "Public relations and communications plarform, offering intuitive newsrooms, media centers and press pages",
+      "eligibility": "🎁 Free for NGOs (and business) that have a role in providing information, reassurance, and guidance during crisis, plus collaboration features for free to all customers",
+      "url": "https://news.pr.co/187218-pr-co-fully-operational-and-offering-some-services-for-free-during-the-covid-19-crisis",
+      "image": "/images/softwares/pr-co-logo.png"
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "description": "Customer messaging apps for sales, marketing, and support, connected on one platform",
+      "eligibility": "🎁 Available free of charge to any company or institution fighting COVID-19 and its impact on society, or working to help those affected",
+      "url": "https://www.intercom.com/partner/covid-19-information",
+      "image": "/images/softwares/intercom-logo.png"
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "description": "Content-delivery-network services, DDoS mitigation, Internet security for your company",
+      "eligibility": "🎁 Cloudflare for Teams available for organizations of any size at no cost through September 1, including an optional 30-minute onboarding session with a technical expert",
+      "url": "https://teams.cloudflare.com/",
+      "image": "/images/softwares/cloudflare-logo.png"
+    },
+    {
+      "id": "amazon-chime",
+      "name": "Amazon Chime",
+      "description": "Online meetings, voice and video chat, along with in-room conferencing services, working across any client device using native applications or browser extension",
+      "eligibility": "🎁 Free use of all Amazon Chime Pro features for online meetings and video conferencing from March 4, 2020 to June 30, 2020 for all customers that start using Amazon Chime for the first time",
+      "url": "https://aws.amazon.com/chime/pricing/",
+      "image": "/images/softwares/amazon-chime-logo.png"
+    },
+    {
+      "id": "rise-science",
+      "name": "Rise",
+      "description": "Sleep app that offers free sleep tracking and sleep-enhancing recommendations based on your circadian rhythm",
+      "eligibility": "🎁 Free use for everyone throughout the COVID-19 crisis",
+      "url": "https://www.risescience.com/better-sleep-better-health",
+      "image": "/images/softwares/rise-science-logo.png"
+    },
+    {
+      "id": "packback",
+      "name": "Packback",
+      "description": "AI-supported online discussion platform that offers asynchronous discussion experience, automated discussion moderation and real-time feedback on students’ posts",
+      "eligibility": "🎁 Zero cost licenses through the end of the Spring semester or academic quarter for any higher education courses moving online mid-term due to COVID-19 prevention",
+      "url": "https://www.packback.co/news/helping-classrooms-stay-connected-and-engaged-online/",
+      "image": "/images/softwares/packback-logo.png"
+    },
+    {
+      "id": "sanako",
+      "name": "Sanako",
+      "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
+      "eligibility": "🎁 Remote teaching tool available for free for 5000 schools until end of semester",
+      "url": "https://etcjournal.com/2020/03/17/sanako-remote-language-teaching-tool-free-until-end-of-semester",
+      "image": "/images/softwares/sanako-logo.jpeg"
+    },
+    {
+      "id": "codeacademy",
+      "name": "Codeacademy",
+      "description": "Technology enhanced language centres for the digital classroom and beyond to move your school’s language classes online",
+      "eligibility": "🎁 10,000 scholarships to Codecademy Pro for free to high school and college students across the world for the rest of the school year",
+      "url": "https://pro.codecademy.com/learn-from-home/",
+      "image": "/images/softwares/code-academy-logo.jpg"
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
+      "eligibility": "🎁 3 months free of Typeform for anyone working on COVID-19 related projects that are strictly not-for-profit",
+      "url": "https://try.typeform.com/covid-19/",
+      "image": "/images/softwares/typeform-logo.png"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "description": "Build interactive, engaging, and conversational online forms for powering your brand’s interactions",
+      "eligibility": "🎁 More than 100 courses for free for everyone",
+      "url": "https://www.udemy.com/courses/free/?sort=popularity&subcategory=Creativity",
+      "image": "/images/softwares/udemy-logo.png"
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "description": "Online education platform that offers a variety of video training courses for software developers, IT administrators, and creative professionals",
+      "eligibility": "🎁 Pluralsight's entire library of 7,000+ online tech courses available for free for everyone during April",
+      "url": "https://www.pluralsight.com/offer/2020/free-april-month",
+      "image": "/images/softwares/pluralsight-logo.png"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe Creative Cloud",
+      "description": "Collection of 20+ desktop and mobile apps and services for photography, design, video, web, UX and more",
+      "eligibility": "🎁 Available at no cost until May 31, 2020 for schools and colleges who currently have only lab access for students",
+      "url": "https://theblog.adobe.com/adobe-enables-distance-learning-globally-schools-impacted-covid-19/",
+      "image": "/images/softwares/adobe-logo.png"
+    },
+    {
+      "id": "aws-ddi",
+      "name": "AWS Diagnostic Development Initiative (DDI)",
+      "description": " An initiative that provides support for innovation in rapid and accurate patient testing for 2019 novel coronavirus (COVID-19), and other diagnostic solutions to mitigate future outbreaks",
+      "eligibility": "🎁 Offering technical support and providing AWS promotional credits to support the use of AWS services to advance diagnostic research for selected institutions and companies",
+      "url": "https://aws.amazon.com/government-education/nonprofits/disaster-response/diagnostic-dev-initiative/",
+      "image": "/images/softwares/aws-ddi-logo.png"
+    },
+    {
+      "id": "manageengine",
+      "name": "ManageEngine Secure Remote Access Toolkit",
+      "description": " ManageEngine's Secure Remote Access Toolkit (Access Manager Plus and Remote Access Plus allow) seamless yet secure connections to desktops, servers, databases, and network devices from employees' homes",
+      "eligibility": "🎁 Free license for any organization that is working remotely due to COVID-19",
+      "url": "https://www.manageengine.com/secure-remote-access-software/",
+      "image": "/images/softwares/manageengine-logo.png"
+    },
+    {
+      "id": "hiver",
+      "name": "Hiver",
+      "description": "Fast email collaboration using shared inboxes such as support@ or invoices@ with ease right inside Gmail",
+      "eligibility": "🎁 Free till June 30, 2020 for small businesses with less than 50 employees that are helping contain the spread of COVID-19 or providing relief to those impacted",
+      "url": "https://hiverhq.com/covid-19",
+      "image": "/images/softwares/hiver-logo.png"
+    },
+    {
+      "id": "liveagent",
+      "name": "LiveAgent",
+      "description": "Live chat, call center, and ticketing software that helps organizations respond to customer queries quickly and answer all calls from the safety of their home",
+      "eligibility": "🎁 Free for public institutions and hospitals",
+      "url": "https://www.facebook.com/LiveAgent/posts/3117668481584679",
+      "image": "/images/softwares/liveagent-logo.png"
+    },
+    {
+      "id": "designmodo",
+      "name": "Designmodo",
+      "description": "Timesaving digital products and tools for designers and developers including website and email builders",
+      "eligibility": "🎁 Free one month subscriptions for nonprofits, NGOs and businesses affected by COVID-19",
+      "url": "https://designmodo.com/freemonth/",
+      "image": "/images/softwares/designmodo-logo.png"
+    },
+    {
+      "id": "alugha",
+      "name": "Alugha",
+      "description": "Universal toolkit to create, publish and host multilingual videos efficiently at scale",
+      "eligibility": "🎁 Free unlimited small business account till 25th of May",
+      "url": "https://alugha.com/plans/7477a4cb-4d22-470e-ba1c-646ac9225787",
+      "image": "/images/softwares/alugha-logo.png"
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "description": "Zapier lets you connect the apps you use to create workflows and complete routine tasks automatically",
+      "eligibility": "🎁 Free Starter plans (1,500 tasks/mo) through the end of the year, for groups working on the front lines of tackling COVID-19 relief efforts",
+      "url": "https://zapier.com/blog/zapier-covid-19/",
+      "image": "/images/softwares/zapier-logo.png"
+    },
+    {
+      "id": "datarobot",
+      "name": "DataRobot",
+      "description": "With DataRobot Automated Machine Learning, you can automate every step needed to build, deploy, and maintain powerful AI, leading to powerful predictions and with DataRobot Paxata, researchers can pull in data from cloud and local desktop files and prepare that data in any way to make it ready for machine learning",
+      "eligibility": "🎁 Free access to DataRobot’s automated machine learning and Paxata data preparation solutions to those interested in using it to help with the COVID-19 virus response effort",
+      "url": "https://www.datarobot.com/lp/covid-19-response-effort/",
+      "image": "/images/softwares/datarobot-logo.png"
+    },
+    {
+      "id": "nvidia-parabricks",
+      "name": "NVIDIA Parabricks",
+      "description": "Parabricks is a software suite for performing secondary analysis of next generation sequencing (NGS) DNA data",
+      "eligibility": "🎁 Free 90-day license to Parabricks to any researcher in the worldwide effort to fight the novel coronavirus",
+      "url": "https://www.developer.nvidia.com/nvidia-parabricks",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }

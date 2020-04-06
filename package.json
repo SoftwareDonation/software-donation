@@ -27,7 +27,9 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.0.0",
-    "nuxt-i18n": "^6.6.0"
+    "nuxt-i18n": "^6.6.0",
+    "vue2-scrollspy": "^2.3.1",
+    "vue2-smooth-scroll": "^1.2.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
