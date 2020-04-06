@@ -14,11 +14,14 @@
         >
           {{ name | firstLetter }}
         </div>
-        <h4>{{ name }}</h4>
+        <h4 class="software-list-item__title">{{ name }}</h4>
       </div>
-      <base-button :href="url" target="_blank">{{
-        $t('software.get')
-      }}</base-button>
+      <base-button
+        :href="url"
+        target="_blank"
+        class="software-list-item__button"
+        >{{ $t('software.get') }}</base-button
+      >
     </div>
     <p class="software-list-item__description">{{ description }}</p>
     <p class="software-list-item__eligibility">{{ eligibility }}</p>
@@ -97,6 +100,10 @@ $image-size: 42px;
     }
   }
 
+  &__title {
+    font-size: $font-size-sm;
+  }
+
   &__image {
     height: $image-size;
     width: $image-size;
@@ -127,6 +134,10 @@ $image-size: 42px;
     font-weight: 500;
     color: $color-grey-dark;
     font-size: $font-size-xxs;
+  }
+
+  &__button {
+    white-space: nowrap;
   }
 }
 </style>
