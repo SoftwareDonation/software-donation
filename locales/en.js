@@ -8,7 +8,7 @@ module.exports = {
     hero: {
       headline: 'Transforming lives through access to powerful software',
       description:
-        'Software Donation is an initiative for making changes and creating impacts with the power of software tools'
+        'Software Donation is an initiative for making a positive impact with the power of software tools'
     },
     causes: {
       call_to_action_sentence: 'Tools to help you during COVID-19'
@@ -16,9 +16,9 @@ module.exports = {
   },
   program: {
     meta_description:
-      'Transform lives and create impact with the power of software',
+      'Transform lives and create positive impact with the power of software',
     hero: {
-      title: 'Transform lives and create impact with the power of software',
+      title: 'Transform lives and create positive impact with the power of software',
       description:
         'Your software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
       button: 'Join Now'
@@ -43,13 +43,13 @@ module.exports = {
   about: {
     title: 'Software Donation Initiative',
     meta_title: 'About',
-    text: `Software Donation is an open-source foundation that aims to create a platform where software companies can join and donate their tools to empower those in need. We are currently focused on COVID-19 and accept companies in remote working and distance learning industries. Our mission is to create awareness around intangible donations like tools and help companies with their software donation strategy. We're currently accepting companies to become our founding members. If you're interested, contact-us:`,
+    text: `Software Donation is a foundation that aims to create a platform where software companies can join and donate their tools to empower those in need. Our current main focus is COVID-19 and we accept companies in remote working, distance learning industries and some other relevant causes that are listed on our home page. Our mission is to create awareness around intangible donations like tools and help companies with their software donation strategy. We're currently accepting companies to become our founding partners and if you're interested in joining this journey, contact us below.`,
     button: 'Get in touch'
   },
   donation_banner: {
     title: 'Can your software make a change?',
     description:
-      'Join the movement and donate your software to support a cause',
+      'Join the movement and donate your software to support the cause',
     button: 'Donate now'
   },
   newsletter: {
