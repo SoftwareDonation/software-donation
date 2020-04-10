@@ -48,6 +48,9 @@
       "softwares": [
         {
           "id": "cloudflare"
+        },
+        {
+          "id": "digital-ocean"
         }
       ]
     },
