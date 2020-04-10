@@ -367,6 +367,14 @@
       "eligibility": "🎁 Free 90-day license to Parabricks to any researcher in the worldwide effort to fight the novel coronavirus",
       "url": "https://www.developer.nvidia.com/nvidia-parabricks",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "digital-ocean",
+      "name": "Digital Ocean",
+      "description": "Cloud infrastructure provider that helps millions of developers easily build, test, manage, and scale applications",
+      "eligibility": "🎁 $100,000 in infrastructure credits for new, not-for-profit projects related to COVID-19",
+      "url": "https://www.digitalocean.com/community/pages/covid-19",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }
