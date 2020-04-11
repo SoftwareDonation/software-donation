@@ -375,6 +375,14 @@
       "eligibility": "🎁 $100,000 in infrastructure credits for new, not-for-profit projects related to COVID-19",
       "url": "https://www.digitalocean.com/community/pages/covid-19",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "clinq",
+      "name": "CLINQ",
+      "description": "CLINQ is a browser based business phone solution for teams",
+      "eligibility": "🎁 Up to and including April, you will now receive 600 free minutes per month instead of 60",
+      "url": "https://clinq.com/en/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }
