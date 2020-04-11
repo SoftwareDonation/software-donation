@@ -1,5 +1,5 @@
 {
-  "title": "research",
+  "title": "empower-healthcare",
   "categories": [
     {
       "name": "Cloud Computing Services",
@@ -17,6 +17,14 @@
         },
         {
           "id": "nvidia-parabricks"
+        }
+      ]
+    },
+    {
+      "name": "Healthcare Communications",
+      "softwares": [
+        {
+          "id": "hypercare"
         }
       ]
     }
