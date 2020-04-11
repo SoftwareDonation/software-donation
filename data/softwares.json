@@ -383,6 +383,14 @@
       "eligibility": "🎁 Up to and including April, you will now receive 600 free minutes per month instead of 60",
       "url": "https://clinq.com/en/",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "hypercare",
+      "name": "Hypercare",
+      "description": "Hypercare is a mobile and web coordination tool built for clinicians by clinicians to communicate securely and to locate each other quickly and effectively",
+      "eligibility": "🎁 Hypercare’s highest tier will be free for 3 months for new and existing users",
+      "url": "https://www.hypercare.com/blog/hypercare-now-providing-free-unlimited-service-to-combat-covid-19/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }
