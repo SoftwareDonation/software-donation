@@ -391,6 +391,15 @@
       "eligibility": "🎁 Hypercare’s highest tier will be free for 3 months for new and existing users",
       "url": "https://www.hypercare.com/blog/hypercare-now-providing-free-unlimited-service-to-combat-covid-19/",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
-    }
+    },
+    {
+      "id": "retrospect",
+      "name": "Retrospect",
+      "description": "Retrospect is a simple, real-time Kanban collaboration tool which helps to conduct end of sprint and project retrospectives with everyone on your team no matter their location.",
+      "eligibility": "🎁 Upgrade to a Lifetime Account for just $48.00, receive all current and future features for life!
+
+",
+      "url": "https://retrospect.team/Start",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
   ]
 }
