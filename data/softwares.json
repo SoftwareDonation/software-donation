@@ -391,6 +391,13 @@
       "eligibility": "🎁 Hypercare’s highest tier will be free for 3 months for new and existing users",
       "url": "https://www.hypercare.com/blog/hypercare-now-providing-free-unlimited-service-to-combat-covid-19/",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
-    }
+    },
+    {
+      "id": "lowdown",
+      "name": "Lowdown",
+      "description": "Lowdown unleashes the valuable content locked within Slack and delivers it to your members inboxes, guiding them back to engage.",
+      "eligibility": "🎁 Lowdown is Free for Slack communities helping with COVID-19",
+      "url": "https://getlowdown.com/covid-19#share",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
   ]
 }
