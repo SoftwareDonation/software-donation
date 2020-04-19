@@ -16,6 +16,14 @@
           "id": "rise-science"
         }
       ]
-    }
+    },
+        {
+      "name": "Fitness",
+      "softwares": [
+        {
+          "id": "thenomadworkout"
+        }
+      ]
+    },
   ]
 }
