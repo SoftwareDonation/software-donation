@@ -160,6 +160,14 @@
       "url": "https://www.headspace.com/covid-19",
       "image": "/images/softwares/headspace-logo.png"
     },
+     {
+      "id": "thenomadworkout",
+      "name": "The Nomad Workout",
+      "description": "An iOS app that gives you the power to create individualized, fully guided fitness routines built around any resources you have access to",
+      "eligibility": "🎁 Free download and access to premium content for everyone during COVID-19 crisis",
+      "url": "https://www.thenomadworkout.com/",
+      "image": "/images/softwares/nomad-logo.png"
+    },
     {
       "id": "webflow",
       "name": "Webflow",
