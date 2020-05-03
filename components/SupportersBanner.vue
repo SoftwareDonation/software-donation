@@ -2,8 +2,16 @@
   <div class="supporters-banner">
     <base-container>
       <h2 class="supporters-banner__title">{{ title }}</h2>
-      <div class="supporters-banner__logos" :class="gridClass">
-        {{ supporters }}
+      <div :class="gridClass">
+        <img
+          v-for="(supporter, index) in supporters"
+          :key="index"
+          :src="supporter.image"
+          :alt="supporter.name"
+          :class="
+            `supporters-banner__image supporters-banner__image--${supporter.name}`
+          "
+        />
       </div>
     </base-container>
   </div>
@@ -32,7 +40,7 @@ export default {
       partners: [
         {
           name: 'Typeform',
-          image: '/images/logos/typeform.png'
+          image: '/images/logos/typeform.svg'
         },
         {
           name: 'Miro',
@@ -40,11 +48,11 @@ export default {
         },
         {
           name: 'CodeAcademy',
-          image: '/images/logos/codeAcademy.png'
+          image: '/images/logos/codeacademy.png'
         },
         {
           name: 'NU',
-          image: '/images/logos/nu.png'
+          image: '/images/logos/nu.svg'
         }
       ],
       all: [
@@ -93,6 +101,36 @@ export default {
 
   &__title {
     font-size: $font-size-xl;
+    text-align: center;
+    margin-bottom: $space-lg;
+  }
+
+  &__row {
+    display: grid;
+    align-items: center;
+    grid-gap: $space-md;
+    justify-content: center;
+
+    &-4 {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    width: auto;
+    height: 70px;
+    margin: auto;
+    filter: saturate(0);
+    opacity: 0.5;
+
+    &--Miro {
+      padding: $space-sm 0;
+    }
+
+    &--CodeAcademy {
+      padding-top: $space-xxs;
+    }
   }
 }
 </style>
