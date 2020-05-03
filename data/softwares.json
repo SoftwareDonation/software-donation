@@ -407,6 +407,62 @@
       "eligibility": "🎁 Hypercare’s highest tier will be free for 3 months for new and existing users",
       "url": "https://www.hypercare.com/blog/hypercare-now-providing-free-unlimited-service-to-combat-covid-19/",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "burner-mail",
+      "name": "Burner Mail",
+      "description": "Keep your inbox protected with burner email addresses. Hide your personal email address, control who can send you emails, and generate new burners with one click",
+      "eligibility": "🎁 Burner mail is slashing their prices in half. Use the code STAYINGHOME during checkout.",
+      "url": "https://burnermail.io/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "monitoro",
+      "name": "Monitoro",
+      "description": "Monitoro helps to monitor website changes and send the latest data to IFTTT, Google Sheets, Zapier, Firebase, AWS Lambda and many other services",
+      "eligibility": "🎁 Monitoro is helping COVID-19 non-profit projects. Write them describing your project and get 5 hourly monitors for free.",
+      "url": "https://www.monitoro.xyz/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "zensors",
+      "name": "Zensors",
+      "description": "Zensors offers real-time, intelligent video analytics for IP cameras for city planning, experiential retail, workplace management, and more. Zensors can help your organization enforce social distancing by utilizing CCTV cameras.",
+      "eligibility": "🎁 Offering their service for free to any organization directly working on mitigating the impact of COVID-19.",
+      "url": "https://zensors.typeform.com/to/cnuBFZ",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "description": "Find the perfect meeting time with super easy online appointment scheduling software from Calendly, and say goodbye to phone and email tag",
+      "eligibility": "🎁 Free premium plan access to teams working directly on COVID-19 pandemic research, response, or mitigation",
+      "url": "https://blog.calendly.com/meeting-integration-update/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "algolia",
+      "name": "Algolia",
+      "description": "Algolia helps businesses across industries quickly create relevant, scalable, and lightning fast Search and Discovery experiences",
+      "eligibility": "🎁 Pro Plan free to any developer or team working on COVID-19-related, not-for-profit websites or apps",
+      "url": "https://blog.algolia.com/supporting-our-communities-during-this-time-of-need/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "reclaimai",
+      "name": "ReclaimAI",
+      "description": "Reclaim makes room on your calendar to help you focus on the things that keep you up at night",
+      "eligibility": "🎁 Reclaim Assistant free of charge until January 2021 to help you manage and defend your time while working remotely",
+      "url": "https://reclaim.ai/product/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "sensei-labs-conductor",
+      "name": "Sensi Labs Conductor",
+      "description": "Teams use Conductor, the SenseiOS® collaborative work management application, to coordinate their work and collaborate in real time to orchestrate every task with ease, so the entire team can work in harmony, like a finely tuned orchestra",
+      "eligibility": "🎁 Conductor is available for free for qualifying organizations to manage their COVID-19 efforts",
+      "url": "https://www.senseilabs.com/conductor/conductor-for-covid-19/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }
