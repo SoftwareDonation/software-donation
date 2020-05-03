@@ -463,6 +463,62 @@
       "eligibility": "🎁 Conductor is available for free for qualifying organizations to manage their COVID-19 efforts",
       "url": "https://www.senseilabs.com/conductor/conductor-for-covid-19/",
       "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "startday",
+      "name": "Startday",
+      "description": "All-in-one management tool for freelancers including time tracking, project management, invoicing and more",
+      "eligibility": "🎁 Free 3 months to all new accounts because of COVID19 and it will automatically be applied when creating your acocunt",
+      "url": "https://startday.app/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "my-hours",
+      "name": "My Hours",
+      "description": "Free Time Tracking software with a track record. Time tracked on projects and tasks can be easily turned into shareable reports for your clients or managers.",
+      "eligibility": "🎁 Time tracking in a team available as part of the Free plan",
+      "url": "https://startday.app/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "my-hours",
+      "name": "My Hours",
+      "description": "Free Time Tracking software with a track record. Time tracked on projects and tasks can be easily turned into shareable reports for your clients or managers.",
+      "eligibility": "🎁 Time tracking in a team available as part of the Free plan",
+      "url": "https://changelog.myhours.com/welcome-to-the-new-my-hours-142880",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "dashly",
+      "name": "Dashly",
+      "description": "Dashly helps to work with leads, automate communications with them to increase conversions and widen steps of the funnel",
+      "eligibility": "🎁 Dashly provides a wide range of discounts for every new client until June 1st",
+      "url": "https://www.dashly.io/blog/crisis-management-with-dashly/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "legaler",
+      "name": "Legaler",
+      "description": "Legaler lets you schedule, host and archive your meetings in one place, securely, so you can meet with clients in your browser, without the need for them to download apps or even sign up",
+      "eligibility": "🎁 Active Plan, their highest paid tier, for 12 months for free to any solo lawyers or small firms of 10 lawyers or less",
+      "url": "https://legaler.com/covid-19/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "kiwi-hr",
+      "name": "Kiwi HR",
+      "description": "Online human resources management ideal for small businesses available on all devices",
+      "eligibility": "🎁 Kiwi HR is giving free access for 3 months to help businesses work from home",
+      "url": "https://kiwihr.com/en/stronger-together",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
+    },
+    {
+      "id": "pleo",
+      "name": "Pleo",
+      "description": "Pleo helps the business expenses solution that empowers to make paying for stuff at work easier",
+      "eligibility": "🎁 Pleo will be free until 1 July for new customers",
+      "url": "https://www.pleo.io/en/",
+      "image": "/images/softwares/nvidia-parabricks-logo.png"
     }
   ]
 }
