@@ -2,7 +2,7 @@
   "title": "empower-businesses",
   "categories": [
     {
-      "name": "Design and Build Tools",
+      "name": "Designer Tools",
       "softwares": [
         {
           "id": "webflow"
@@ -16,7 +16,18 @@
       ]
     },
     {
-      "name": "Communication Tools",
+      "name": "Developer Tools",
+      "softwares": [
+        {
+          "id": "algolia"
+        },
+        {
+          "id": "monitoro"
+        }
+      ]
+    },
+    {
+      "name": "Communication",
       "softwares": [
         {
           "id": "openphone"
@@ -36,24 +47,38 @@
       ]
     },
     {
-      "name": "Marketing",
+      "name": "Marketing & Sales",
       "softwares": [
         {
           "id": "pr-co"
         },
         {
           "id": "alugha"
+        },
+        {
+          "id": "dashly"
         }
       ]
     },
     {
-      "name": "Infrastructure",
+      "name": "Infrastructure, Security & Privacy",
       "softwares": [
         {
           "id": "cloudflare"
         },
         {
           "id": "digital-ocean"
+        },
+        {
+          "id": "burner-mail"
+        }
+      ]
+    },
+    {
+      "name": "HR",
+      "softwares": [
+        {
+          "id": "kiwi-hr"
         }
       ]
     },
@@ -69,10 +94,48 @@
       ]
     },
     {
+      "name": "Expense Management",
+      "softwares": [
+        {
+          "id": "pleo"
+        }
+      ]
+    },
+    {
+      "name": "Scheduling & Time Management",
+      "softwares": [
+        {
+          "id": "calendly"
+        },
+        {
+          "id": "reclaimai"
+        },
+        {
+          "id": "my-hours"
+        }
+      ]
+    },
+    {
       "name": "Automation",
       "softwares": [
         {
           "id": "zapier"
+        }
+      ]
+    },
+    {
+      "name": "Safety",
+      "softwares": [
+        {
+          "id": "zensors"
+        }
+      ]
+    },
+    {
+      "name": "Freelancing",
+      "softwares": [
+        {
+          "id": "startday"
         }
       ]
     }
