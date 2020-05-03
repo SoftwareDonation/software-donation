@@ -33,6 +33,9 @@
         },
         {
           "id": "krisp"
+        },
+        {
+          "id": "legaler"
         }
       ]
     },
@@ -56,6 +59,9 @@
         },
         {
           "id": "hiver"
+        },
+        {
+          "id": "sensei-labs-conductor"
         }
       ]
     },
