@@ -2,6 +2,10 @@
   <div>
     <HomeHeader />
     <SoftwaresList :causes="causes" :categories="categories" />
+    <SupportersBanner
+      v-if="categories.length > 0"
+      :title="$t('home.sponsor')"
+    />
     <DonationBanner v-if="categories.length > 0" />
   </div>
 </template>
@@ -11,6 +15,7 @@ import { MAIN_TITLE } from '../../config'
 import HomeHeader from '../../components/HomeHeader.vue'
 import SoftwaresList from '../../components/SoftwaresList.vue'
 import DonationBanner from '../../components/DonationBanner.vue'
+import SupportersBanner from '../../components/SupportersBanner.vue'
 import causesAndCategories from '../../mixins/causesAndCategories'
 
 export default {
@@ -18,7 +23,8 @@ export default {
   components: {
     HomeHeader,
     SoftwaresList,
-    DonationBanner
+    DonationBanner,
+    SupportersBanner
   },
   mixins: [causesAndCategories],
   head() {
