@@ -78,7 +78,7 @@ export default {
         },
         {
           name: 'Dropbox',
-          image: '/images/logos/dropbox.png'
+          image: '/images/logos/dropbox.svg'
         }
       ]
     }
@@ -108,7 +108,7 @@ export default {
   &__row {
     display: grid;
     align-items: center;
-    grid-gap: $space-md;
+    grid-gap: $space-lg;
     justify-content: center;
 
     &-4 {
@@ -118,22 +118,35 @@ export default {
     &-6 {
       grid-template-columns: repeat(6, 1fr);
     }
+
+    @media screen and (max-width: $screen-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__image {
     max-width: 100%;
     width: auto;
-    height: 70px;
+    height: auto;
+    max-height: 70px;
     margin: auto;
     filter: saturate(0);
     opacity: 0.5;
 
     &--Miro {
-      padding: $space-sm 0;
+      padding: ($space-sm + 4) 0;
     }
 
     &--CodeAcademy {
       padding-top: $space-xxs;
+    }
+
+    &--Zoom {
+      padding: $space-md 0;
+    }
+
+    &--Google {
+      padding: $space-sm 0;
     }
   }
 }
