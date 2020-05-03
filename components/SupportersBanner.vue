@@ -112,7 +112,11 @@ export default {
     justify-content: center;
 
     &-4 {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &-6 {
+      grid-template-columns: repeat(6, 1fr);
     }
   }
 

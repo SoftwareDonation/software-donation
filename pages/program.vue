@@ -1,7 +1,7 @@
 <template>
   <div>
     <ProgramHeader />
-    <SupportersBanner :title="$t('program.sponsor')" />
+    <SupportersBanner :title="$t('program.sponsor')" type="all" />
     <main>
       <section class="program__section program__section--first">
         <div class="program__section-content program__section-content--first">
