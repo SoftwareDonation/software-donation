@@ -62,6 +62,9 @@
       "softwares": [
         {
           "id": "typeform"
+        },
+        {
+          "id": "jotform"
         }
       ]
     },
