@@ -1,6 +1,7 @@
 <template>
   <div>
     <ProgramHeader />
+    <SupportersBanner :title="$t('program.sponsor')" />
     <main>
       <section class="program__section program__section--first">
         <div class="program__section-content program__section-content--first">
@@ -32,12 +33,14 @@
 import { DONATE_LINK, MAIN_TITLE } from '../config'
 import ProgramHeader from '../components/ProgramHeader.vue'
 import BaseButton from '../components/BaseButton.vue'
+import SupportersBanner from '../components/SupportersBanner.vue'
 
 export default {
   title: 'Program',
   components: {
     ProgramHeader,
-    BaseButton
+    BaseButton,
+    SupportersBanner
   },
   data() {
     return {

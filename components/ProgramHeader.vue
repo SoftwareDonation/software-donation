@@ -33,6 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .program-header {
+  padding-top: $space-xl;
   background-color: #fff;
   text-align: center;
   height: 70vh;

@@ -25,6 +25,7 @@ module.exports = {
         'Your software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
       button: 'Join Now'
     },
+    sponsor: 'Join the companies who donate their software',
     sections: {
       first: {
         title:
