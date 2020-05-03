@@ -10,6 +10,7 @@
         >{{ $t('about.button') }}</base-button
       >
     </base-container>
+    <SupportersBanner :title="$t('home.sponsor')" />
   </div>
 </template>
 
@@ -18,13 +19,15 @@ import { MAIN_TITLE, CONTACT_FORM_LINK } from '../config'
 import AboutHeader from '../components/AboutHeader.vue'
 import BaseContainer from '../components/BaseContainer.vue'
 import BaseButton from '../components/BaseButton.vue'
+import SupportersBanner from '../components/SupportersBanner.vue'
 
 export default {
   title: 'About',
   components: {
     AboutHeader,
     BaseContainer,
-    BaseButton
+    BaseButton,
+    SupportersBanner
   },
   data() {
     return {
