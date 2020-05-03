@@ -477,14 +477,6 @@
       "name": "My Hours",
       "description": "Free Time Tracking software with a track record. Time tracked on projects and tasks can be easily turned into shareable reports for your clients or managers.",
       "eligibility": "🎁 Time tracking in a team available as part of the Free plan",
-      "url": "https://startday.app/",
-      "image": "/images/softwares/startday-logo.png"
-    },
-    {
-      "id": "my-hours",
-      "name": "My Hours",
-      "description": "Free Time Tracking software with a track record. Time tracked on projects and tasks can be easily turned into shareable reports for your clients or managers.",
-      "eligibility": "🎁 Time tracking in a team available as part of the Free plan",
       "url": "https://changelog.myhours.com/welcome-to-the-new-my-hours-142880",
       "image": "/images/softwares/my-hours-logo.png"
     },
@@ -494,7 +486,7 @@
       "description": "Dashly helps to work with leads, automate communications with them to increase conversions and widen steps of the funnel",
       "eligibility": "🎁 Dashly provides a wide range of discounts for every new client until June 1st",
       "url": "https://www.dashly.io/blog/crisis-management-with-dashly/",
-      "image": "/images/softwares/dashly-logo.png"
+      "image": "/images/softwares/dashly-logo.jpg"
     },
     {
       "id": "legaler",
@@ -518,7 +510,7 @@
       "description": "Pleo helps the business expenses solution that empowers to make paying for stuff at work easier",
       "eligibility": "🎁 Pleo will be free until 1 July for new customers",
       "url": "https://www.pleo.io/en/",
-      "image": "/images/softwares/pleo-logo.png"
+      "image": "/images/softwares/pleo-logo.svg"
     }
   ]
 }

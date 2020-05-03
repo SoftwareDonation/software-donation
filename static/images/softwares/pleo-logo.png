@@ -1,0 +1,925 @@
+ <!DOCTYPE HTML>
+ <html lang="en">
+    <head>
+
+      <!-- Google Optimize anti-flicker snippet -->
+      <style>.async-hide { opacity: 0 !important} </style>
+      <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+      h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+      (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+      })(window,document.documentElement,'async-hide','dataLayer',4000,
+      {'GTM-TVF6PG8':true});</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <script type="text/javascript" async>
+
+       const default_country = getCookie('default_country');
+       const current_country = window.location.pathname.slice(1,3);
+       const noRedirect = !!window.location.hostname.match(/(?:jobs|careers|events)\.pleo\.io/);
+
+       // if cookie not set => check by IP
+       if (!noRedirect) {
+        if (!~['en', 'da', 'se', 'de', 'ie', 'es'].indexOf((default_country || ''))) {
+           httpGetAsync('https://geolocation-db.com/json/', function(response) {
+               let country_code = JSON.parse(response).country_code;
+               redirectBasedOnCountry(country_code);
+           });
+         } else if (default_country !== current_country) {
+             redirectBasedOnCountry(default_country);
+         }
+       }
+
+       function redirectBasedOnCountry(country_code) {
+        if (~['DK', 'da'].indexOf(country_code)) {
+          country_code = 'da';
+          createCookie('default_country', country_code, 365);
+        } else if (~['DE', 'de'].indexOf(country_code)) {
+          country_code = 'de';
+          createCookie('default_country', country_code, 365);
+        } else if (~['SE', 'se'].indexOf(country_code)) {
+          country_code = 'se';
+          createCookie('default_country', country_code, 365);
+        } else if (~['IE', 'ie'].indexOf(country_code)) {
+          country_code = 'ie';
+          createCookie('default_country', country_code, 365);
+        } else if (~['ES', 'es'].indexOf(country_code)) {
+          country_code = 'es';
+          createCookie('default_country', country_code, 365);
+        } else {
+          country_code = 'en';
+          createCookie('default_country', 'en', 365);
+        }
+
+         let path_rest_array = window.location.pathname.match(/(?:\/(?:en|da))?\/(.+)/);
+         let path = '';
+
+         if (path_rest_array) {
+          path = path_rest_array[1];
+         }
+
+         window.location = '/' + country_code + '/' + path + window.location.search;
+       }
+
+       function httpGetAsync(theUrl, callback)
+       {
+           var xmlHttp = new XMLHttpRequest();
+           xmlHttp.onreadystatechange = function() {
+               if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                   callback(xmlHttp.responseText);
+           }
+           xmlHttp.open("GET", theUrl, true); // true for asynchronous
+           xmlHttp.send(null);
+       }
+
+       function getCookie(c_name) {
+           if (document.cookie.length > 0) {
+               c_start = document.cookie.indexOf(c_name + "=");
+               if (c_start != -1) {
+                   c_start = c_start + c_name.length + 1;
+                   c_end = document.cookie.indexOf(";", c_start);
+                   if (c_end == -1) {
+                       c_end = document.cookie.length;
+                   }
+                   return unescape(document.cookie.substring(c_start, c_end));
+               }
+           }
+           return "";
+       }
+
+       function createCookie(name, value, days) {
+           var expires;
+           if (days) {
+               var date = new Date();
+               date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+               expires = "; expires=" + date.toGMTString();
+           }
+           else {
+               expires = "";
+           }
+           document.cookie = name + "=" + value + expires + "; path=/";
+       }
+
+       function focusBottomForm() {
+         setTimeout(function(){ document.getElementById('fieldEmailBottom').focus(); }, 300);
+       }
+
+       function cleanUrl() {
+         var url_rest = window.location.pathname;
+
+         if (url_rest.startsWith("/en/")!=-1 || url_rest.startsWith("/da/")!=-1){
+           url_rest = window.location.pathname.slice(4);
+         }
+
+         if (url_rest == 'ex.html'){
+           url_rest = "";
+         }
+
+         return url_rest;
+       }
+
+     </script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="The business expenses solution that empowers your people to do more. Join the thousands of companies that trust Pleo to make paying for stuff at work easier.">
+     <meta name="keywords" content="company payment card,company prepaid card,company expenses,expense reports,reimbursement,petty cash">
+
+     <link rel="canonical" href="https://www.pleo.io/" />
+
+     <meta name="twitter:card" content="summary_large_image" />
+     <meta name="twitter:title" content="Pleo – Smart Credit Cards For Your Business" />
+     <meta name="twitter:description" content="The business expenses solution that empowers your people to do more. Join the thousands of companies that trust Pleo to make paying for stuff at work easier." />
+      <meta name="twitter:creator" content="@pleo" />
+      <meta name="twitter:site" content="@pleo" />
+
+     <meta property="fb:app_id" content="pleo.io" />
+      <meta property="og:url" content="https://www.pleo.io/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Pleo – Smart Credit Cards For Your Business" />
+     <meta property="og:description" content="The business expenses solution that empowers your people to do more. Join the thousands of companies that trust Pleo to make paying for stuff at work easier." />
+     <meta property="og:site_name" content="Pleo.io - A Company Payment Card That Works For You" />
+     <meta property="og:image" content="/e809772af90bb4f12c35f9576dad3577.jpg" />
+     <meta property="og:image:type" content="image/png" />
+     <meta property="og:image:width" content="1206" />
+     <meta property="og:image:height" content="632" />
+
+     <title>Pleo – Smart Credit Cards For Your Business</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+     <!-- Add the slick-theme.css if you want default styling -->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <link rel="alternate" href="http://www.pleo.io/da/" hreflang="da" />
+
+ <link rel="shortcut icon" href="/favicon.ico"><link href="/styles.cddc7f1108b3dddfac4e.css" rel="stylesheet"><script src="/vendor.cddc7f1108b3dddfac4e.js"></script><script src="/segment.cddc7f1108b3dddfac4e.js"></script><script src="/app.cddc7f1108b3dddfac4e.js"></script></head>
+
+ <body class="preload newsite">
+
+
+<div class="notification-banner">
+  Covid-19: Pleo’s free until 1 July for new customers
+</div>
+
+
+<div class="prehead index-v1" id="preheader">
+  <div class="header header-compromise">
+    <div class="invisible"></div>
+
+    <nav class="navigation static" id="compromise-nav">
+      <div class="navigation--logo">
+        <a href="https://www.pleo.io/en/"><img alt="logo" id="pleo-logo" src="/1c37d57a163e7c3a46a16019eb6d0b6c.svg"></a>
+      </div>
+
+      <ul class="navigation--menu">
+  <li class="navigation--item"><a href="https://www.pleo.io/en/howitworks">Features</a></li>
+  <li class="navigation--item"><a href="https://www.pleo.io/en/whypleo">Why Pleo</a></li>
+  <li class="navigation--item"><a href="https://www.pleo.io/en/customers">Customers</a></li>
+  <li class="navigation--item"><a href="https://www.pleo.io/en/pricing" class="hidden-sm">Pricing</a></li>
+
+  
+    <li class="navigation--item"><a href="https://www.pleo.io/en/partners" class="hidden-md hidden-sm">Partners</a></li>
+
+    <li class="navigation--item right"><a class="signup-button" href="#signupform" onclick="focusBottomForm()">Start free trial</a></li>
+    <li class="navigation--item right"><a href="https://www.pleo.io/en/demo" class="hidden-md hidden-sm">Book a demo</a></li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <li class="navigation--item right"><a href="https://app.pleo.io/login" class="hidden-sm">Log In</a></li>
+</ul>
+
+
+      <a class="navigation--button">
+        <img alt="menu" src="/c686e8dfb2f34a754f89a0b546396cb6.svg" />
+      </a>
+    </nav>
+
+    <div class="headlines v3headlines press-logos">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-5 col-md-6">
+            <h3 class="why-pleo-tagline">Say goodbye to<br><div class="rw-words v3rw-words rw-words-1 v3rw-words-1 hidden-sm hidden-xs">
+              <span>expense reports.</span>
+              <span>reimbursements.</span>
+              <span>receipt hunting.</span>
+              <span>petty cash.</span>
+              <span>tedious paperwork.</span>
+            </div>
+            <div class="rw-words hidden-md hidden-lg"><span class="whypleov3">expense reports.</span></div>
+            </h3>
+            <h2>
+              Pleo offers smart company credit cards that automate expense reports and simplify company spending.
+            </h2>
+         <form action="https://hooks.zapier.com/hooks/catch/1235293/19ll0l/" method="post" class="front_form" id="topForm">
+                <input id="fieldEmail" name="email" type="email" placeholder="Your company email" class="inputfield pass" required />
+                <button type="submit" class="ButtonConfirm buttonconfirmupper" id="btnAddUser">Start free trial</button>
+                        <div id="form_validation_top">&nbsp;</div>
+                        <a href="http://trustpilot.com/review/pleo.io" target="_blank" id="trustpilot_link">
+                          <div class="row">
+                            <div class="col-xs-12 col-lg-5 col-md-5">
+                              <div class="social-proof-hero">
+                                <div class="trustpilot-stars"><img src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px"></div>
+                                  <span href="#" class="text">Rating on <strong>Trustpilot</strong></span>
+    	                            </div>
+                            </div>
+                        </a>
+                        
+                        <a href="https://community.xero.com/business/discussion/67052662" target="_blank" id="trustpilot_link">
+                            <div class="col-xs-12 col-lg-5 col-md-5">
+                              <div class="social-proof-hero">
+                                <div class="trustpilot-stars"><img src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px"></div>
+                                  <span href="#" class="text">Rating on <strong>Xero Marketplace</strong></span>
+                                  </div>
+                            </div>
+                          </div>
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+
+          </form>
+          </div>
+          <div class="col-xs-12 col-lg-7 col-md-6">
+            <span class="wistia_embed wistia_async_lq0p6rciwm popover=true popoverAnimateThumbnail=true popoverContent=link" style="display: block; position: relative;"><a href="#" target="_blank" alt="Watch Pleo video">
+              <div class="header newheader">
+               <script src="//fast.wistia.com/embed/medias/lq0p6rciwm.jsonp" async></script>
+                 <button class="v3__video__play-btn"></button>
+
+
+            </a></span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+</div>
+
+<div class="container-fluid sub-hero hidden-xs">
+  <div class="row">
+    <div class="container sub-hero-logos">
+      <p class="hero-logos-txt">TRUSTED BY 8000+ COMPANIES OF DIFFERENT SIZES AND INDUSTRIES</p>
+
+      <div class="sub-hero-logos-images">
+        
+
+        
+          <div>
+            <img class="vayner" src="/26dcb63d773f6d92f7354fea4c4e6483.png" />
+          </div>
+          <div>
+            <img class="airsorted" src="/7ff64293cafdc70a22a6c87688b7bd7e.png" />
+          </div>
+          <div>
+            <img class="syftapp" src="/e977c4efd04f5dfd66f7fe95c210479c.png" />
+          </div>
+          <div>
+            <img class="vayner" src="/79232f2c58982f4c83089c9da9e575c9.png" />
+          </div>
+          <div>
+            <img class="charlie" src="/d7adaebfc14e9e15d988f9f933909e29.png" />
+          </div>
+          <div>
+            <img class="shortlist" src="/01d5b20c925e5845a0424b88e9c87f91.png" />
+          </div>
+        
+
+        
+
+        
+
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container margin-top-60">
+	<div class="row">
+		<div class="subtitle1 col-sm-12">
+			<h3>Pleo is a simple spending solution for your company<br></h3>
+		</div>
+	</div>
+
+  <div class="row firstfeatures3">
+    <div class="col-xs-6 col-sm-3 features3 mainfeatures3 travelfeatures">
+      <img src="/2683cd4acb26224fd7465dd0c118d0c0.svg" height="80px" width="auto">
+      <h2>Smart company cards</h2>
+      <p>Issue cards with limits for your staff with a click.</p>
+    </div>
+    <div class="col-xs-6  col-sm-3 features3 mainfeatures3 travelfeatures">
+      <img src="/5a44053be98d8c1ac78234bde9cd0774.svg" height="80px" width="auto">
+      <h2>Automated expenses</h2>
+      <p>Catch receipts with an app instantly, on-the-go.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3 features3 mainfeatures3 travelfeatures">
+      <img src="/2c614b258f5e2ee2166effe9b8be6591.svg" height="80px" width="auto">
+      <h2>Spending overview</h2>
+      <p>See all company expenses in one place, in real-time.</p>
+    </div>
+    <div class="col-xs-6 col-sm-3 features3 mainfeatures3 travelfeatures">
+      <img src="/89dea23a5e40101bf7ac1c8bcfd940c3.svg" height="80px" width="auto">
+      <h2>Simplified bookkeeping</h2>
+      <p>Integrate Pleo with your accounting tools.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mainfeatures">
+
+	<div class="main-feature">
+		<div class="container reorder">
+			<div class="row">
+			<div class="col-lg-6 col-lg-offset-0 col-md-7 col-sm-11 col-sm-offset-1 col-md-offset-0 col-xs-10 col-xs-offset-1 featureimage item1">
+						<img src="/36a181a33ee03aaa34bb72b58bdc749b.png" class="2x v3images v3imageimage1">
+	    </div>
+			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-0 col-md-offset-0 col-sm-11 col-sm-offset-1 col-xs-10 col-xs-offset-1 item2">
+				<h2>Company cards for employees</h2>
+				<h3>Empower your team, <br>while staying in control<br></h3>
+				<ul class="top-three-features">
+					<li><p class="one-of-the-features">Enable every employee with a company card</p></li>
+					<li><p class="one-of-the-features">Set individual spending limits for each user</p></li>
+					<li><p class="one-of-the-features">Disable or enable Pleo cards instantly</p></li>
+				</ul>
+			</div>
+		</div>
+	 </div>
+	</div>
+
+	<div class="main-feature main-feature-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-0 col-xs-10 col-xs-offset-1">
+				 	   <h2>Automated expense reports</h2>
+						 <h3>No more lost receipts <br>and tedious paperwork<br></h3>
+						 <ul class="top-three-features">
+							 <li><p class="one-of-the-features">Real-time notifications when a Pleo card is used</p></li>
+							 <li><p class="one-of-the-features">Easily capture and match receipts with the Pleo app</p></li>
+							 <li><p class="one-of-the-features">Automatic categorization of all purchases</p></li>
+						 </ul>
+				</div>
+				<div class="col-lg-6 col-lg-offset-0 col-md-7 col-md-offset-0 col-sm-11 col-sm-offset-0 col-xs-10 col-xs-offset-1 featureimage2">
+				 <img src="/56d57ec9dcb976e394b0dde25d2e2428.png" class="2x v3images v3imageimage2">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-feature main-feature-3">
+		<div class="container reorder">
+			<div class="row">
+				<div class="col-lg-7 col-md-6 col-xs-12 featureimage3 item1">
+						<img src="/733ff0aaff741c34a6595ac28ae516ca.png" class="2x v3images v3imageimage3">
+				</div>
+				<div class="col-lg-5 col-lg-offset-0 col-md-6 col-md-offset-0 col-xs-10 col-xs-offset-1 item2">
+					<h2>Real-time spending overview</h2>
+					<h3>See where the company<br> money is going in real time<br></h3>
+					<ul class="top-three-features">
+						<li><p class="one-of-the-features">Follow all purchases, categorized with the right receipts</p></li>
+						<li><p class="one-of-the-features">Set custom tags to match the accounting procedures</p></li>
+						<li><p class="one-of-the-features">Integrate and sync Pleo with your accounting system</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <div class="integrations main-feature-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-5 integrations-desc">
+          <h2>Accounting systems integrations</h2>
+          <h3>Integrate Pleo with your accounting tools</h3>
+          <p>
+            Pleo works seamlessly with various accounting systems and saves you precious time on repetitive tasks. You can
+            now import all expenses and associated data with a single click.
+          </p>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-7 featureimage item1">
+          <img
+            src="/35657ce679ad3cae0466e1a9c5f9d5fd.png"
+            class="2x v3images v3imageimage4"
+            width="100%"
+            height="auto"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="container">
+<div class="carousel slide" data-interval="8000" data-ride="carousel" id="quote-carousel">
+
+
+
+	<h3>Why 8000+ companies trust Pleo<br></h3>
+
+	<div class="carousel-inner">
+
+		<div class="item itemv3 active">
+				<div class="customerblock">
+					<div class="newcustomercasesv3">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 quotepic">
+								
+								
+								
+								
+								<script src="https://fast.wistia.com/embed/medias/p9ecmvrrwe.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_p9ecmvrrwe popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline;position:relative"><a href="#">
+								<img class="customerlogo" src="/81c117eaf14eefb6781dd5f662e7f45f.png" height="auto" width="100%">
+									</a></span>
+								
+								
+								
+
+              </div>
+              <div class="col-md-6 col-sm-12 quoterestv3">
+								
+								
+								
+								
+								<img class="customerlogo" src="/035aa2a89a34913a88c3a76a5d0191bd.png" height="40px">
+								
+								
+								
+								
+								<p>"Pleo is an obvious solution that just makes our lives easier.”</p>
+								<span class="quotejobtitle">Thom Elliot, Managing Director</span>
+								
+								
+								
+								
+								
+								
+              </div>
+            </div>
+					</div>
+				</div>
+		</div>
+
+		<div class="item itemv3">
+				<div class="customerblock">
+					<div class="newcustomercasesv3">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 quotepic">
+							
+							<script src="https://fast.wistia.com/embed/medias/poju8gvj51.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_poju8gvj51 popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline;position:relative"><a href="#">
+							<img class="customerlogo" src="/1b1a6dce07ca1ca7ec58a3ca35d3bbfc.png" height="auto" width="100%">
+							</a></span>
+							
+							
+							
+							
+							
+							
+            </div>
+            <div class="col-md-6 col-sm-12 quoterestv3">
+						
+						<img class="customerlogo" src="/2a570070cd6e25c21130b4dfb4770b3e.png" height="25px">
+						<p>“Pleo empowers our employees to be quicker and more productive.”</p>
+						<span class="quotejobtitle">Anna Roe, Global Head of People</span>
+						
+						
+						
+						
+						
+						
+
+					</div>
+
+				  </div>
+					</div>
+        </div>
+		</div>
+
+    <div class="item itemv3">
+				<div class="customerblock">
+					<div class="newcustomercasesv3">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 quotepic">
+							
+							<script src="https://fast.wistia.com/embed/medias/olgyru0a37.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_olgyru0a37 popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline;position:relative"><a href="#">
+							<img class="customerlogo" src="/4a7f4ae47f9adad3cbe6623d22537a11.png" height="auto" width="100%">
+							
+							
+							
+							
+							
+							
+							</a></span>
+            </div>
+            <div class="col-md-6 col-sm-12 quoterestv3">
+						
+						<img class="customerlogo" src="/7703e365b674bc35f709d44e8fa9f0e3.jpg" height="20px">
+						<p>"Pleo saves a lot of time for the team and the finance function."</p>
+						<span class="quotejobtitle">James Armstrong, CFO</span>
+						
+						
+						
+						
+						
+						
+
+            </div>
+				  </div>
+					</div>
+        </div>
+		</div>
+
+
+		<ol class="carousel-indicators carousel-indicatorsv3">
+			<li data-target="#quote-carousel" data-slide-to="0" class="active"> </li>
+			<li data-target="#quote-carousel" data-slide-to="1">  </li>
+			<li data-target="#quote-carousel" data-slide-to="2">  </li>
+		</ol>
+
+	</div>
+
+
+
+</div>
+</div>
+
+
+
+<div class="photobannernew photobannerv3">
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+				
+				
+        <img src="/8e59ff9b0d56d703f1277c6010af912c.png" alt=""/>
+      	<img src="/86fe360ec2285753df9404256c865631.png" alt=""/>
+      	<img src="/ae5414bc643c7c5caa4d80445dbcb637.png" alt="" />
+      	<img src="/09c2d0a4a4fd8668561d1d3afaeee218.png" alt="" />
+        <img src="/7f8791d71d5f92b6c753831c68fb1d04.png" alt=""/>
+      	<img src="/2bb916d57d7ed5777379b3d9dbce0dc9.png" alt="" />
+        <img src="/1d004bf7f17e52ee242d29ec315be5b1.png" alt=""/>
+        <img src="/9108ecafc8c1cc1ecccd3d7c270f15a2.png" alt=""/>
+        <img src="/b22ed9c340b994ef87a44f64837f6c9d.png" alt=""/>
+        <img src="/0347fcc18de9a36cc4572679a46fecfc.png" alt=""/>
+        <img src="/db3f7d82b38be4de58e8adef9741dbb2.png" alt=""/>
+        <img src="/5dfbbf5c22e2595828a70ea5a179de1a.png" alt=""/>
+        <img src="/7b3ff60c29e7737914b5c917a0c45e2a.png" alt=""/>
+        <img src="/5d084402a3bc1358d27eca46827b0cae.png" alt=""/>
+        <img src="/7994b4f876fb50ce8a20ddb8f4ee28c1.png" alt="" class="hidden-xs"/>
+				
+				
+				
+				
+				
+
+      </div>
+    </div>
+
+		<div class="row customer-cases-stories">
+			<a href="https://www.pleo.io/en/customers">Watch their stories →</a>
+		</div>
+
+		<hr>
+
+		<div class="row five-star-ratings">
+
+			<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+				<div class="platform-logo"><img class="five-star-platform capterra-platform" src="/e836650ce50bda5b95e0ff5c4ab2de0a.svg" alt=""/></div>
+				<img class="five-stars" src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px">
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+				<div class="platform-logo"><img class="five-star-platform trustpilot-platform" src="/a1cb1db958d5bc5f75005da6a0251121.png" alt=""/></div>
+				<img class="five-stars" src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px">
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+				<div class="platform-logo"><img class="five-star-platform getapp-platform" src="/8bd922efe3ac0b656bf89e3f5faabc3b.png"  alt=""/></div>
+				<img class="five-stars" src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px">
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6 text-center">
+				<div class="platform-logo"><img class="five-star-platform xero-platform" src="/6cd0f948a45c3f1dff0a4882ed1d2b09.png" alt=""/></div>
+				<img class="five-stars" src="/ad203bff6e63dafb1a9d22509c9cd5d1.png" height="20px">
+			</div>
+		</div>
+
+  </div>
+</div>
+
+
+<div class="footer-signup" id="signupform">
+  <h2 id="footertitle">Get started with Pleo today</h2>
+
+  <p>Sign up today and say goodbye to expense reports.</p>
+
+  <div id="signupbox">
+    <form
+      action="https://hooks.zapier.com/hooks/catch/1235293/19ll0l/"
+      method="post"
+      id="subForm"
+      class="front_form"
+    >
+      <input
+        id="fieldEmailBottom"
+        name="email"
+        type="email"
+        placeholder="Your company email"
+        class="inputfield pass"
+        required
+      />
+
+      <button
+        type="submit"
+        class="ButtonConfirm buttonconfirmdown Button-blue"
+        id="btnAddUser"
+      >
+        Start free trial
+      </button>
+    </form>
+
+    <div id="form_validation_bottom"></div>
+  </div>
+
+  <div class="press">
+    <p class="mention mention1">As seen in:</p>
+
+    
+      <img class="mention mention3" alt="press5" src="/8930f0a8caaad6378aa902eea6fb8e40.png" height="35">
+      <img class="mention mention3" alt="press2" src="/e260d4ac6307fd7978da3ea687392554.png" height="35">
+      <img class="mention" alt="press1" src="/ba6d73e531d3c09819ae9a311c8a1839.png" height="20">
+      <img class="mention" alt="press3" src="/4761cdcafde167aacfb27a5402eaf279.png" height="20">
+    
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+
+<div class="footer flex-row">
+  <div class="footer__details flex-col">
+    <img class="footer__logo" alt="Pleo logo" src="/24d11c98d639b9bcbad759caab7f68f9.svg">
+  
+    <p class="footer__address">
+      Pleo Technologies A/S<br />
+      1A Old Nichol Street<br />
+      London E2 7HR<br />
+      United Kingdom<br />
+      CVR: 36538686
+    </p>
+
+    <div class="country-select">
+      <div class="dropup">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          
+            <span class="flag-icon flag-icon-gb"></span> United Kingdom
+          
+          
+          
+          
+          
+          
+          <span class="caret"></span>
+        </button>
+    
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li>
+            <a onclick="changeCountry('en')">
+              <span class="flag-icon flag-icon-gb"></span>United Kingdom
+            </a>
+          </li>
+          <li>
+            <a onclick="changeCountry('da')">
+              <span class="flag-icon flag-icon-dk"></span>Denmark
+            </a>
+          </li>
+          <li>
+            <a onclick="changeCountry('de')">
+              <span class="flag-icon flag-icon-de"></span>Germany
+            </a>
+          </li>
+          <li>
+            <a onclick="changeCountry('se')">
+              <span class="flag-icon flag-icon-se"></span>Sweden
+            </a>
+          </li>
+          <li>
+            <a onclick="changeCountry('ie')">
+              <span class="flag-icon flag-icon-ie"></span>Ireland
+            </a>
+          </li>
+          <li>
+            <a onclick="changeCountry('es')">
+              <span class="flag-icon flag-icon-es"></span>Spain
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <nav class="footer__social-links">
+      <a href="http://www.linkedin.com/company/pleo-company" target="_blank">
+        <img alt="LinkedIn logo" src="/db2543da66b6c4037af197bd8afd06dd.svg">
+      </a>
+      <a href="http://www.twitter.com/pleo" target="_blank">
+        <img alt="Twitter logo" src="/1a8946b91c01bd4f70e181a4d7bf0c6c.svg">
+      </a>
+      <a href="http://www.facebook.com/pleo.io" target="_blank">
+        <img alt="Facebook logo" src="/df3939a052a15812f090d48b835c2c58.svg">
+      </a>
+      <a href="https://www.instagram.com/pleo.io" target="_blank">
+        <img alt="Instagram logo" src="/d0c9dcaa6ee2f3a9cae0cd2d2dd0b1dc.svg">
+      </a>
+      <a href="https://www.youtube.com/channel/UCQQitvQIlEgIxNyLlOgilXQ" target="_blank">
+        <img alt="YouTube logo" src="/e3bd150302a3078c1a74874857ce3d0c.svg">
+      </a>
+    </nav>
+
+    <nav class="footer__contact">
+      <a id="intercom-widget">Chat with us</a>
+      <a href="mailto:info@pleo.io">info@pleo.io</a>
+      <a href="mailto:support@pleo.io">support@pleo.io</a>
+    </nav>
+  </div>
+
+  <div class="flex-col flex-row">
+    <div class="footer__links flex-col flex-row">
+      <div class="flex-col flex-row">
+        <nav class="flex-col">
+          <p class="footer__title">Product</p>
+
+          <a href="https://www.pleo.io/en/howitworks">Features</a>
+          <a href="https://www.pleo.io/en/whypleo">Why Pleo</a>
+          <a href="https://www.pleo.io/en/faq">FAQ</a>
+          <a href="https://www.pleo.io/en/pricing">Pricing</a>
+
+          
+            <a href="https://www.pleo.io/en/integrations">Integrations</a>
+          
+          
+          
+          
+          
+
+          <a href="https://www.pleo.io/en/security">Security</a>
+          <a href="http://status.pleo.io">Status</a>
+        </nav>
+
+        <nav class="flex-col">
+          <p class="footer__title">Resources</p>
+
+          <a href="https://blog.pleo.io" target="_blank">Blog</a>
+          <a href="https://help.pleo.io" target="_blank">Help centre</a>
+          <a href="https://www.pleo.io/en/partners">Partners</a>
+          <a href="https://www.pleo.io/en/customers">Customers</a>
+        </nav>
+      </div>
+
+      <div class="flex-col flex-row">
+        <nav class="flex-col">
+          <p class="footer__title">Company</p>
+
+          <a href="https://www.pleo.io/en/about">About us</a>
+          <a href="https://www.pleo.io/en/careers">Careers</a>
+          <a href="https://www.pleo.io/en/press">Press</a>
+          <a href="https://www.pleo.io/en/legal" target="_blank">Legal</a>
+          <a href="https://www.pleo.io/en/referral" target="_blank">Referrals</a>
+        </nav>
+
+        <nav class="flex-col">
+          <p class="footer__title">Legal</p>
+
+          <a href="https://pleo-terms.s3.amazonaws.com/documents/TermsOfService_English.pdf" target="_blank">Terms of service</a>
+          <a href="https://pleo-terms.s3.amazonaws.com/documents/TermsAndConditions_2020-04-01_UK_en.pdf" target="_blank">Terms & conditions</a>
+          <a href="https://pleo-terms.s3.amazonaws.com/documents/Privacy_Policy_English.pdf" target="_blank">Privacy policy</a>
+          <a href="https://pleo-terms.s3.amazonaws.com/documents/20180629_Pleo_Website%20Page_Fraud%20Awareness.pdf" target="_blank">Fraud awareness</a>
+          <a href="https://pleo-terms.s3.amazonaws.com/documents/20190725_Pleo_Website+Page_Complaint+Process_06AugustAffiliate.pdf" target="_blank">Complaints process</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer__terms flex-col">
+      <p>The Pleo Card is issued by Pleo Financial Services A/S pursuant to a license from Mastercard International Incorporated. Mastercard and the Mastercard Brand Mark are registered trademarks of Mastercard International Incorporated. Pleo Financial Services A/S is a regulated Electronic Money Institution, authorised by the Financial Supervisory Authority, Denmark. Registered Office of Pleo Financial Services A/S: Ravnsborg Tværgade 5 C, 4. Copenhagen N, 2200, Denmark. CVR Number: 39155435. All communications should be sent to Pleo Technologies A/S, Ravnsborg Tværgade 5C, 2200 Copenhagen N, Denmark</p>
+
+      <br />
+
+      <p>Pleo Technologies A/S, 2020. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.5/css/flag-icon.min.css">
+
+<!-- PLEO: Set Language Preference Cookie -->
+<script type="text/javascript">
+	function changeCountry(country_code) {
+	  createCookie('default_country', country_code, 365);
+	  window.location = '/' + country_code + '/' + window.location.pathname.slice(4);
+	}
+
+	function createCookie(name, value, days) {
+	    var expires;
+	    if (days) {
+	        var date = new Date();
+	        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+	        expires = "; expires=" + date.toGMTString();
+	    }
+	    else {
+	        expires = "";
+	    }
+	    document.cookie = name + "=" + value + expires + "; path=/";
+	}
+
+	function getCookie(c_name) {
+	    if (document.cookie.length > 0) {
+	        c_start = document.cookie.indexOf(c_name + "=");
+	        if (c_start != -1) {
+	            c_start = c_start + c_name.length + 1;
+	            c_end = document.cookie.indexOf(";", c_start);
+	            if (c_end == -1) {
+	                c_end = document.cookie.length;
+	            }
+	            return unescape(document.cookie.substring(c_start, c_end));
+	        }
+	    }
+	    return "";
+	}
+
+</script>
+
+<!-- PLEO: Set URL Parameter Cookies -->
+<script type="text/javascript">
+
+	let referrer_email = getURLParameter('referral');
+	if (referrer_email && getCookie('pleo_user_referrer') == ""){
+	  createCookie('pleo_user_referrer', referrer_email, 365);
+	}
+
+	let utm_source = getURLParameter('utm_source');
+	if (utm_source && getCookie('pleo_utm_source') == ""){
+	  createCookie('pleo_utm_source', utm_source, 365);
+	}
+
+	let utm_medium = getURLParameter('utm_medium');
+	if (utm_medium && getCookie('pleo_utm_medium') == ""){
+	  createCookie('pleo_utm_medium', utm_medium, 365);
+	}
+
+	let utm_campaign = getURLParameter('utm_campaign');
+	if (utm_campaign && getCookie('pleo_utm_campaign') == ""){
+	  createCookie('pleo_utm_campaign', utm_campaign, 365);
+	}
+
+	let referralCode = getURLParameter('referralCode');
+	if (referralCode && getCookie('pleo_referralCode') == ""){
+		createCookie('pleo_referralCode', referralCode, 365);
+	}
+
+	function getURLParameter(name) {
+	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+	}
+
+</script>
+<!-- End of Pleo URL Parameters Cookies -->
+
+<!-- Cookie consent banner -->
+	<link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
+	<script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#ffffff","text":"#000000","border":"#ffffff"},"button":{"background":"#DC818E","text":"#ffffff"}},"padding":"small","content":{"message":"By using this website you agree to our","link":"cookie policy","button":"Dismiss","href":"https://www.pleo.io/en/legal/#cookiepolicy"},"position":"bottom"})});</script>
+<!-- End Cookie consent banner -->
+
+</body>
+</html>
+
+
