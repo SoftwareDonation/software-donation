@@ -108,6 +108,8 @@ export default {
 }
 
 .softwares-list {
+  margin-bottom: $space-4xl;
+
   &__category {
     margin-top: $space-xxxl;
   }

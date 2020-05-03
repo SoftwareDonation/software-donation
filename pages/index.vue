@@ -2,6 +2,7 @@
   <div>
     <HomeHeader />
     <SoftwaresList :causes="causes" :categories="categories" />
+    <SupportersBanner :title="$t('home.sponsor')" />
     <DonationBanner />
   </div>
 </template>
@@ -10,6 +11,7 @@
 import HomeHeader from '../components/HomeHeader.vue'
 import SoftwaresList from '../components/SoftwaresList.vue'
 import DonationBanner from '../components/DonationBanner.vue'
+import SupportersBanner from '../components/SupportersBanner.vue'
 import causesAndCategories from '../mixins/causesAndCategories'
 
 export default {
@@ -17,7 +19,8 @@ export default {
   components: {
     HomeHeader,
     SoftwaresList,
-    DonationBanner
+    DonationBanner,
+    SupportersBanner
   },
   mixins: [causesAndCategories]
 }

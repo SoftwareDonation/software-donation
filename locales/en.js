@@ -12,13 +12,15 @@ module.exports = {
     },
     causes: {
       call_to_action_sentence: 'Tools to help you during COVID-19'
-    }
+    },
+    sponsor: 'Become our partner to support us on our mission'
   },
   program: {
     meta_description:
       'Transform lives and create positive impact with the power of software',
     hero: {
-      title: 'Transform lives and create positive impact with the power of software',
+      title:
+        'Transform lives and create positive impact with the power of software',
       description:
         'Your software can create a change and empower those in need. Join Google, Zoom, Microsoft and many other companies who are donating their software.',
       button: 'Join Now'
